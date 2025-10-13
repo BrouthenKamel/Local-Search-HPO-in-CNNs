@@ -34,11 +34,7 @@ Although a surrogate modeling module was explored, it was ultimately **abandoned
 
 ## Installation
 
-```bash
-# Create the conda environment
-conda env create -f environment.yaml
-conda activate cnn-hpo
-```
+Follow these [Guidelines](./docs/guides/conda.md)
 
 ## Usage
 
@@ -52,8 +48,6 @@ python scripts/pretrained_training.py
 python src/optim/sa_optimization/main.py
 ```
 
-Absolutely — here’s a **clean, README-ready “Results” section** that matches the paper’s actual findings and phrasing, but stays simple and GitHub-friendly:
-
 ## Results
 
 The proposed **Stochastic Best Improvement with Progressive Halving (SBI-PH)** method was tested on **MobileNetV3-Small** using the **CIFAR-10** dataset.
@@ -66,7 +60,7 @@ Each optimization run is compared to the baseline pretrained model.
 | **Second HPO Run**  | **86.80 %** | **+4.35 %**        | 1.019 M    | **−33 %**             |
 | **Third HPO Run**   | 86.48 %     | +4.03 %            | 0.574 M    | **−62 %**             |
 
-➡️ The best configuration achieved **86.8 % accuracy**, a gain of about **4 %** over the baseline,
+The best configuration achieved **86.8 % accuracy**, a gain of about **4 %** over the baseline,
 while reducing the model size by roughly **one-third**.
 A more compact variant (0.57 M parameters, about **60 % smaller**) maintained nearly the same accuracy.
 
