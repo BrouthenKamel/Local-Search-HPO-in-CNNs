@@ -78,4 +78,21 @@ If you find this interesting, you can read the following:
 
 ## License
 
+This project is done within the Semestrial Project for "Intelligent Systems & Data" Option at [Ecole nationale Supérieure d’Informatique (ESI)](https://www.esi.dz/presentationesi/)
+
+### Contributors LinkedIn (ordered alphabetically)
+- [ABOUD Ibrahim](https://www.linkedin.com/in/ibrahim-aboud04/)
+- [AKEB Abdelaziz](https://www.linkedin.com/in/abdelaziz-akeb-4064a9282/)
+- [BAGHDADI Mouadh](https://www.linkedin.com/in/mouad-baghdadi-2111871b9/)
+- [BROUTHEN Kamel](https://www.linkedin.com/in/brouthen-kamel/)
+- [MOKRANE Imed Eddine](https://www.linkedin.com/in/imed-eddine-mokrane-3a1a17232/)
+- [SEGHAIRI Abderraouf](https://www.linkedin.com/in/abderraouf-seghairi-1970b8275/)
+
+### Supervisors Google Scholar / Research Gate (ordered alphabetically)
+- [ARIES Abdelkrime](https://scholar.google.com/citations?user=FYJlQL4AAAAJ&hl=en)
+- [BENATCHBA Karima](https://scholar.google.com/citations?user=7iGY4M0AAAAJ&hl=en&oi=ao)
+- [BENBOUZID SI-TAYEB Fatima](https://scholar.google.com/citations?user=ri2J--kAAAAJ&hl=en&oi=ao)
+- [BESSEDIK Malika](https://scholar.google.com/citations?user=FTzfUeEAAAAJ&hl=en&oi=ao)
+- [FAISAL Touka](https://www.researchgate.net/profile/Touka-Faisal-2)
+
 This project is released under the **MIT License**.
