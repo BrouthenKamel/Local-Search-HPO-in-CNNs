@@ -1,4 +1,4 @@
-name: carbon
+name: cnn-hpo
 channels:
   - pytorch
   - nvidia
