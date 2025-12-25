@@ -7,6 +7,7 @@ import torch
 class OptimizerType(str, Enum):
     SGD = 'sgd'
     ADAM = 'adam'
+    ADAMW = 'adamw'
     RMSPROP = 'rmsprop'
     ADAGRAD = 'adagrad'
 

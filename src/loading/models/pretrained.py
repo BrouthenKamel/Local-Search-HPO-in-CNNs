@@ -14,7 +14,7 @@ family_to_model = {
     ModelFamily.DENSENET: lambda weights: models.densenet121(weights=weights),
     ModelFamily.REGNET: lambda weights: models.regnet_y_400mf(weights=weights),
     ModelFamily.SQUEEZENET: lambda weights: models.squeezenet1_0(weights=weights),
-    ModelFamily.MOBILENETV3: lambda weights: MobileNetV3Small(weights=weights),
+    ModelFamily.MOBILENETV3: lambda weights: MobileNetV3Small(pretrained=True),
 }
 
 default_weights = {
@@ -29,15 +29,16 @@ default_weights = {
 }
 
 def suggest_output_layer(model, num_classes=10):
-    print("Top-level modules and their types:")
-    for name, module in model.named_children():
-        print(f"  {name}: {module.__class__.__name__}")
+    # print("Top-level modules and their types:")
+    # for name, module in model.named_children():
+    #     print(f"  {name}: {module.__class__.__name__}")
     
-    print("\nSuggestion for replacing classifier:")
+    # print("\nSuggestion for replacing classifier:")
     
     if hasattr(model, "fc") and isinstance(model.fc, nn.Linear):
-        print("→ Replace `model.fc` with:")
-        print(f"  model.fc = nn.Linear({model.fc.in_features}, {num_classes})")
+        # print("→ Replace `model.fc` with:")
+        # print(f"  model.fc = nn.Linear({model.fc.in_features}, {num_classes})")
+        pass
         
     elif hasattr(model, "classifier"):
         classifier = model.classifier
@@ -51,21 +52,27 @@ def suggest_output_layer(model, num_classes=10):
             if last_idx >= 0:
                 layer = classifier[last_idx]
                 if isinstance(layer, nn.Linear):
-                    print(f"→ Replace `model.classifier[{last_idx}]` with:")
-                    print(f"  model.classifier[{last_idx}] = nn.Linear({layer.in_features}, {num_classes})")
+                    # print(f"→ Replace `model.classifier[{last_idx}]` with:")
+                    # print(f"  model.classifier[{last_idx}] = nn.Linear({layer.in_features}, {num_classes})")
+                    pass
                 elif isinstance(layer, nn.Conv2d):
-                    print(f"→ Replace `model.classifier[{last_idx}]` with:")
-                    print(f"  model.classifier[{last_idx}] = nn.Conv2d({layer.in_channels}, {num_classes}, kernel_size=1)")
+                    # print(f"→ Replace `model.classifier[{last_idx}]` with:")
+                    # print(f"  model.classifier[{last_idx}] = nn.Conv2d({layer.in_channels}, {num_classes}, kernel_size=1)")
+                    pass
         elif isinstance(classifier, nn.Linear):
-            print("→ Replace `model.classifier` with:")
-            print(f"  model.classifier = nn.Linear({classifier.in_features}, {num_classes})")
+            # print("→ Replace `model.classifier` with:")
+            # print(f"  model.classifier = nn.Linear({classifier.in_features}, {num_classes})")
+            pass
         elif isinstance(classifier, nn.Conv2d):
-            print("→ Replace `model.classifier` with:")
-            print(f"  model.classifier = nn.Conv2d({classifier.in_channels}, {num_classes}, kernel_size=1)")
+            # print("→ Replace `model.classifier` with:")
+            # print(f"  model.classifier = nn.Conv2d({classifier.in_channels}, {num_classes}, kernel_size=1)")
+            pass
         else:
-            print("Unrecognized classifier structure.")
+            # print("Unrecognized classifier structure.")
+            pass
     else:
-        print("Unable to detect a known classifier layer to replace.")
+        # print("Unable to detect a known classifier layer to replace.")
+        pass
 
 def load_pretrained_model(family: ModelFamily, num_classes: int, pretrained: bool = True):
     try:

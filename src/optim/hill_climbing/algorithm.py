@@ -13,11 +13,11 @@ from src.loading.models.mobilenet.model import MobileNetV3Small
 def evaluate(model, dataset, epochs: int, optimizer = None):
     training_params = TrainingParams(
         epochs=epochs,
-        batch_size=128,
-        learning_rate=0.001,
+        batch_size=64,
+        learning_rate=1e-4,
         optimizer=OptimizerType.ADAM,
         momentum=None,
-        weight_decay=None,
+        weight_decay=1e-4,
     )
     
     start_time = time.time()
@@ -30,7 +30,7 @@ def evaluate(model, dataset, epochs: int, optimizer = None):
     print(f"Evaluated model with test_accuracy={best_test_accuracy:.4f}, time={eval_time:.2f} minutes")
 
     return train_results.model, train_results.optimizer, best_test_accuracy
-    return model, None, test_accuracy
+    # return model, None, test_accuracy
 
 def hill_climbing_optimization(
     initial_hp: MobileNetHP,
@@ -39,13 +39,13 @@ def hill_climbing_optimization(
     iterations: int = 10,
     neighbors_per_iteration: int = 4,
     max_epochs: int = 20,
-    block_modification_ratio: float = 0.3,
+    block_modification_ratio: float = 0.5,
     param_modification_ratio: float = 0.5,
-    perturbation_intensity: int = 1,
+    perturbation_intensity: int = 2,
     perturbation_strategy: str = "local",
     freeze_blocks_until: int = 0
 ):
-    stage_schedule = [max_epochs // 6, max_epochs // 3, max_epochs]
+    stage_schedule = [max_epochs // 5, int(max_epochs / 2.5), max_epochs]
     pretrained = freeze_blocks_until > 0
 
     # Initial evaluation

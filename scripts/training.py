@@ -12,12 +12,12 @@ from src.schema.training import TrainingParams, OptimizerType
 training_params = TrainingParams(
     epochs = 20,
     batch_size = 64,
-    learning_rate = 0.005,
+    learning_rate = 1e-4,
     optimizer = OptimizerType.ADAM,
     momentum = None,
-    weight_decay = None,
+    weight_decay = 1e-4,
 )
-    
+
 # for dataset_name in [DatasetName.MNIST, DatasetName.FashionMNIST, DatasetName.CIFAR10]:
 for dataset_name in [DatasetName.CIFAR10]:
 
@@ -25,16 +25,16 @@ for dataset_name in [DatasetName.CIFAR10]:
     
     for family in [
         # ModelFamily.VGG,
-        # ModelFamily.RESNET,
-        # ModelFamily.EFFICIENTNET,
+        ModelFamily.RESNET,
+        ModelFamily.EFFICIENTNET,
         ModelFamily.MOBILENET,
         # ModelFamily.DENSENET,
-        # ModelFamily.REGNET,
-        # ModelFamily.SQUEEZENET,
+        ModelFamily.REGNET,
+        ModelFamily.SQUEEZENET,
         # ModelFamily.MOBILENETV3,
     ]:
         
-        for pretrained in [True]:
+        for pretrained in [False, True]:
             
             print()
             
@@ -48,7 +48,7 @@ for dataset_name in [DatasetName.CIFAR10]:
             
             print(f"Parameters: {count_parameters(model)} Million")
             
-            # suggest_output_layer(model, dataset.num_classes)
+            suggest_output_layer(model, dataset.num_classes)
             
             e = time.time()
             

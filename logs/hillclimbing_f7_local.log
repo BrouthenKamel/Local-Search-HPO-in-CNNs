@@ -1,0 +1,27 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.6427 | Train Accuracy: 39.11%
+Epoch 1 | Test Loss:  1.1354 | Test Accuracy:  58.65%
+--------------------
+Epoch 2 | Train Loss: 1.2342 | Train Accuracy: 55.25%
+Epoch 2 | Test Loss:  0.9189 | Test Accuracy:  66.76%
+--------------------
+Epoch 3 | Train Loss: 1.0599 | Train Accuracy: 61.99%
+Epoch 3 | Test Loss:  0.7918 | Test Accuracy:  71.67%
+--------------------
+Epoch 4 | Train Loss: 0.9460 | Train Accuracy: 66.38%
+Epoch 4 | Test Loss:  0.7116 | Test Accuracy:  74.93%
+--------------------
+Epoch 5 | Train Loss: 0.8515 | Train Accuracy: 70.18%
+Epoch 5 | Test Loss:  0.6611 | Test Accuracy:  76.61%
+--------------------
+Epoch 6 | Train Loss: 0.7850 | Train Accuracy: 72.40%
+Epoch 6 | Test Loss:  0.6138 | Test Accuracy:  78.68%
+--------------------
+Epoch 7 | Train Loss: 0.7340 | Train Accuracy: 74.32%
+Epoch 7 | Test Loss:  0.5878 | Test Accuracy:  79.42%
+--------------------
+Epoch 8 | Train Loss: 0.6889 | Train Accuracy: 75.66%
+Epoch 8 | Test Loss:  0.5664 | Test Accuracy:  80.80%
+--------------------

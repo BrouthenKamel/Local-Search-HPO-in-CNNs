@@ -1,0 +1,519 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Freezeing 0 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.7501 | Train Accuracy: 32.94%
+Epoch 1 | Test Loss:  1.5127 | Test Accuracy:  43.15%
+--------------------
+Epoch 2 | Train Loss: 1.4245 | Train Accuracy: 46.93%
+Epoch 2 | Test Loss:  1.3032 | Test Accuracy:  51.87%
+--------------------
+Epoch 3 | Train Loss: 1.2413 | Train Accuracy: 54.30%
+Epoch 3 | Test Loss:  1.1895 | Test Accuracy:  56.43%
+--------------------
+Epoch 4 | Train Loss: 1.1070 | Train Accuracy: 59.80%
+Epoch 4 | Test Loss:  1.0991 | Test Accuracy:  60.09%
+--------------------
+Epoch 5 | Train Loss: 1.0054 | Train Accuracy: 63.79%
+Epoch 5 | Test Loss:  1.0416 | Test Accuracy:  62.24%
+--------------------
+Finished Training. Best Test Accuracy: 62.24%
+Training time: 9.02 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.7385 | Train Accuracy: 33.19%
+Epoch 1 | Test Loss:  1.4957 | Test Accuracy:  43.84%
+--------------------
+Epoch 2 | Train Loss: 1.3993 | Train Accuracy: 48.07%
+Epoch 2 | Test Loss:  1.2988 | Test Accuracy:  51.86%
+--------------------
+Epoch 3 | Train Loss: 1.2260 | Train Accuracy: 55.14%
+Epoch 3 | Test Loss:  1.1666 | Test Accuracy:  57.52%
+--------------------
+Epoch 4 | Train Loss: 1.0969 | Train Accuracy: 60.26%
+Epoch 4 | Test Loss:  1.1024 | Test Accuracy:  59.57%
+--------------------
+Epoch 5 | Train Loss: 0.9932 | Train Accuracy: 63.98%
+Epoch 5 | Test Loss:  1.0286 | Test Accuracy:  63.07%
+--------------------
+Finished Training. Best Test Accuracy: 63.07%
+Training time: 9.11 minutes
+==================== 
+
+Freezeing 1 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.7333 | Train Accuracy: 33.27%
+Epoch 1 | Test Loss:  1.4758 | Test Accuracy:  44.38%
+--------------------
+Epoch 2 | Train Loss: 1.3804 | Train Accuracy: 48.93%
+Epoch 2 | Test Loss:  1.2639 | Test Accuracy:  53.93%
+--------------------
+Epoch 3 | Train Loss: 1.2065 | Train Accuracy: 56.32%
+Epoch 3 | Test Loss:  1.1545 | Test Accuracy:  58.52%
+--------------------
+Epoch 4 | Train Loss: 1.0779 | Train Accuracy: 61.22%
+Epoch 4 | Test Loss:  1.0925 | Test Accuracy:  60.72%
+--------------------
+Epoch 5 | Train Loss: 0.9734 | Train Accuracy: 65.05%
+Epoch 5 | Test Loss:  1.0176 | Test Accuracy:  63.77%
+--------------------
+Finished Training. Best Test Accuracy: 63.77%
+Training time: 9.22 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.6963 | Train Accuracy: 36.02%
+Epoch 1 | Test Loss:  1.4282 | Test Accuracy:  47.33%
+--------------------
+Epoch 2 | Train Loss: 1.3355 | Train Accuracy: 50.92%
+Epoch 2 | Test Loss:  1.2310 | Test Accuracy:  55.53%
+--------------------
+Epoch 3 | Train Loss: 1.1482 | Train Accuracy: 58.33%
+Epoch 3 | Test Loss:  1.1085 | Test Accuracy:  60.45%
+--------------------
+Epoch 4 | Train Loss: 1.0041 | Train Accuracy: 64.11%
+Epoch 4 | Test Loss:  1.0282 | Test Accuracy:  63.26%
+--------------------
+Epoch 5 | Train Loss: 0.9040 | Train Accuracy: 67.66%
+Epoch 5 | Test Loss:  0.9829 | Test Accuracy:  65.10%
+--------------------
+Finished Training. Best Test Accuracy: 65.10%
+Training time: 8.70 minutes
+==================== 
+
+Freezeing 2 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.7198 | Train Accuracy: 34.56%
+Epoch 1 | Test Loss:  1.4625 | Test Accuracy:  45.06%
+--------------------
+Epoch 2 | Train Loss: 1.3505 | Train Accuracy: 50.38%
+Epoch 2 | Test Loss:  1.2586 | Test Accuracy:  54.11%
+--------------------
+Epoch 3 | Train Loss: 1.1558 | Train Accuracy: 57.95%
+Epoch 3 | Test Loss:  1.1418 | Test Accuracy:  58.38%
+--------------------
+Epoch 4 | Train Loss: 1.0208 | Train Accuracy: 63.11%
+Epoch 4 | Test Loss:  1.0768 | Test Accuracy:  61.39%
+--------------------
+Epoch 5 | Train Loss: 0.9059 | Train Accuracy: 67.32%
+Epoch 5 | Test Loss:  0.9960 | Test Accuracy:  64.05%
+--------------------
+Finished Training. Best Test Accuracy: 64.05%
+Training time: 9.24 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.527 Million
+Epoch 1 | Train Loss: 1.7288 | Train Accuracy: 34.48%
+Epoch 1 | Test Loss:  1.4846 | Test Accuracy:  44.84%
+--------------------
+Epoch 2 | Train Loss: 1.3649 | Train Accuracy: 49.66%
+Epoch 2 | Test Loss:  1.2714 | Test Accuracy:  53.53%
+--------------------
+Epoch 3 | Train Loss: 1.1672 | Train Accuracy: 57.65%
+Epoch 3 | Test Loss:  1.1309 | Test Accuracy:  59.44%
+--------------------
+Epoch 4 | Train Loss: 1.0197 | Train Accuracy: 63.38%
+Epoch 4 | Test Loss:  1.0423 | Test Accuracy:  62.36%
+--------------------
+Epoch 5 | Train Loss: 0.9055 | Train Accuracy: 67.59%
+Epoch 5 | Test Loss:  1.0057 | Test Accuracy:  64.07%
+--------------------
+Finished Training. Best Test Accuracy: 64.07%
+Training time: 8.43 minutes
+==================== 
+
+Freezeing 3 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.6219 | Train Accuracy: 38.29%
+Epoch 1 | Test Loss:  1.3359 | Test Accuracy:  49.97%
+--------------------
+Epoch 2 | Train Loss: 1.2084 | Train Accuracy: 55.99%
+Epoch 2 | Test Loss:  1.0992 | Test Accuracy:  60.10%
+--------------------
+Epoch 3 | Train Loss: 1.0091 | Train Accuracy: 63.63%
+Epoch 3 | Test Loss:  0.9821 | Test Accuracy:  65.01%
+--------------------
+Epoch 4 | Train Loss: 0.8709 | Train Accuracy: 68.98%
+Epoch 4 | Test Loss:  0.9157 | Test Accuracy:  67.97%
+--------------------
+Epoch 5 | Train Loss: 0.7671 | Train Accuracy: 72.56%
+Epoch 5 | Test Loss:  0.8941 | Test Accuracy:  69.38%
+--------------------
+Finished Training. Best Test Accuracy: 69.38%
+Training time: 9.37 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.523 Million
+Epoch 1 | Train Loss: 1.6293 | Train Accuracy: 38.18%
+Epoch 1 | Test Loss:  1.3577 | Test Accuracy:  50.10%
+--------------------
+Epoch 2 | Train Loss: 1.2393 | Train Accuracy: 54.89%
+Epoch 2 | Test Loss:  1.1574 | Test Accuracy:  57.82%
+--------------------
+Epoch 3 | Train Loss: 1.0449 | Train Accuracy: 62.10%
+Epoch 3 | Test Loss:  1.0174 | Test Accuracy:  63.74%
+--------------------
+Epoch 4 | Train Loss: 0.9101 | Train Accuracy: 67.32%
+Epoch 4 | Test Loss:  0.9541 | Test Accuracy:  66.09%
+--------------------
+Epoch 5 | Train Loss: 0.8086 | Train Accuracy: 71.15%
+Epoch 5 | Test Loss:  0.9293 | Test Accuracy:  66.93%
+--------------------
+Finished Training. Best Test Accuracy: 66.93%
+Training time: 7.90 minutes
+==================== 
+
+Freezeing 4 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.6598 | Train Accuracy: 37.01%
+Epoch 1 | Test Loss:  1.3713 | Test Accuracy:  48.99%
+--------------------
+Epoch 2 | Train Loss: 1.2408 | Train Accuracy: 54.84%
+Epoch 2 | Test Loss:  1.1478 | Test Accuracy:  58.45%
+--------------------
+Epoch 3 | Train Loss: 1.0556 | Train Accuracy: 61.64%
+Epoch 3 | Test Loss:  1.0393 | Test Accuracy:  62.61%
+--------------------
+Epoch 4 | Train Loss: 0.9202 | Train Accuracy: 66.92%
+Epoch 4 | Test Loss:  0.9554 | Test Accuracy:  65.75%
+--------------------
+Epoch 5 | Train Loss: 0.8092 | Train Accuracy: 71.21%
+Epoch 5 | Test Loss:  0.9153 | Test Accuracy:  67.91%
+--------------------
+Finished Training. Best Test Accuracy: 67.91%
+Training time: 9.29 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.518 Million
+Epoch 1 | Train Loss: 1.6675 | Train Accuracy: 36.73%
+Epoch 1 | Test Loss:  1.4063 | Test Accuracy:  47.97%
+--------------------
+Epoch 2 | Train Loss: 1.2595 | Train Accuracy: 54.36%
+Epoch 2 | Test Loss:  1.1721 | Test Accuracy:  57.73%
+--------------------
+Epoch 3 | Train Loss: 1.0661 | Train Accuracy: 61.62%
+Epoch 3 | Test Loss:  1.0462 | Test Accuracy:  62.14%
+--------------------
+Epoch 4 | Train Loss: 0.9385 | Train Accuracy: 66.48%
+Epoch 4 | Test Loss:  0.9856 | Test Accuracy:  64.84%
+--------------------
+Epoch 5 | Train Loss: 0.8377 | Train Accuracy: 70.00%
+Epoch 5 | Test Loss:  0.9390 | Test Accuracy:  66.46%
+--------------------
+Finished Training. Best Test Accuracy: 66.46%
+Training time: 7.63 minutes
+==================== 
+
+Freezeing 5 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.4675 | Train Accuracy: 45.25%
+Epoch 1 | Test Loss:  1.1361 | Test Accuracy:  58.46%
+--------------------
+Epoch 2 | Train Loss: 1.0312 | Train Accuracy: 62.87%
+Epoch 2 | Test Loss:  0.9650 | Test Accuracy:  64.67%
+--------------------
+Epoch 3 | Train Loss: 0.8590 | Train Accuracy: 69.09%
+Epoch 3 | Test Loss:  0.8783 | Test Accuracy:  67.93%
+--------------------
+Epoch 4 | Train Loss: 0.7451 | Train Accuracy: 73.29%
+Epoch 4 | Test Loss:  0.8138 | Test Accuracy:  71.15%
+--------------------
+Epoch 5 | Train Loss: 0.6444 | Train Accuracy: 77.36%
+Epoch 5 | Test Loss:  0.7544 | Test Accuracy:  73.51%
+--------------------
+Finished Training. Best Test Accuracy: 73.51%
+Training time: 9.33 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.504 Million
+Epoch 1 | Train Loss: 1.5401 | Train Accuracy: 41.90%
+Epoch 1 | Test Loss:  1.2693 | Test Accuracy:  53.87%
+--------------------
+Epoch 2 | Train Loss: 1.1421 | Train Accuracy: 58.63%
+Epoch 2 | Test Loss:  1.0944 | Test Accuracy:  60.35%
+--------------------
+Epoch 3 | Train Loss: 0.9798 | Train Accuracy: 64.51%
+Epoch 3 | Test Loss:  1.0108 | Test Accuracy:  63.67%
+--------------------
+Epoch 4 | Train Loss: 0.8691 | Train Accuracy: 68.71%
+Epoch 4 | Test Loss:  0.9630 | Test Accuracy:  65.70%
+--------------------
+Epoch 5 | Train Loss: 0.7786 | Train Accuracy: 72.05%
+Epoch 5 | Test Loss:  0.9059 | Test Accuracy:  68.04%
+--------------------
+Finished Training. Best Test Accuracy: 68.04%
+Training time: 7.28 minutes
+==================== 
+
+Freezeing 6 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.4427 | Train Accuracy: 46.29%
+Epoch 1 | Test Loss:  1.1426 | Test Accuracy:  58.28%
+--------------------
+Epoch 2 | Train Loss: 1.0134 | Train Accuracy: 63.49%
+Epoch 2 | Test Loss:  0.9293 | Test Accuracy:  66.03%
+--------------------
+Epoch 3 | Train Loss: 0.8447 | Train Accuracy: 69.86%
+Epoch 3 | Test Loss:  0.8198 | Test Accuracy:  70.49%
+--------------------
+Epoch 4 | Train Loss: 0.7280 | Train Accuracy: 73.76%
+Epoch 4 | Test Loss:  0.7625 | Test Accuracy:  72.67%
+--------------------
+Epoch 5 | Train Loss: 0.6300 | Train Accuracy: 77.51%
+Epoch 5 | Test Loss:  0.7251 | Test Accuracy:  75.10%
+--------------------
+Finished Training. Best Test Accuracy: 75.10%
+Training time: 9.35 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.447 Million
+Epoch 1 | Train Loss: 1.5390 | Train Accuracy: 42.37%
+Epoch 1 | Test Loss:  1.2580 | Test Accuracy:  53.92%
+--------------------
+Epoch 2 | Train Loss: 1.1561 | Train Accuracy: 58.14%
+Epoch 2 | Test Loss:  1.0927 | Test Accuracy:  60.70%
+--------------------
+Epoch 3 | Train Loss: 1.0114 | Train Accuracy: 63.62%
+Epoch 3 | Test Loss:  0.9980 | Test Accuracy:  64.34%
+--------------------
+Epoch 4 | Train Loss: 0.8999 | Train Accuracy: 67.69%
+Epoch 4 | Test Loss:  0.9378 | Test Accuracy:  66.62%
+--------------------
+Epoch 5 | Train Loss: 0.8104 | Train Accuracy: 70.93%
+Epoch 5 | Test Loss:  0.9004 | Test Accuracy:  68.36%
+--------------------
+Finished Training. Best Test Accuracy: 68.36%
+Training time: 7.01 minutes
+==================== 
+
+Freezeing 7 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.4578 | Train Accuracy: 45.56%
+Epoch 1 | Test Loss:  1.1012 | Test Accuracy:  60.22%
+--------------------
+Epoch 2 | Train Loss: 0.9917 | Train Accuracy: 63.91%
+Epoch 2 | Test Loss:  0.8965 | Test Accuracy:  67.18%
+--------------------
+Epoch 3 | Train Loss: 0.8002 | Train Accuracy: 70.96%
+Epoch 3 | Test Loss:  0.7801 | Test Accuracy:  72.04%
+--------------------
+Epoch 4 | Train Loss: 0.6697 | Train Accuracy: 76.09%
+Epoch 4 | Test Loss:  0.6842 | Test Accuracy:  75.53%
+--------------------
+Epoch 5 | Train Loss: 0.5705 | Train Accuracy: 79.90%
+Epoch 5 | Test Loss:  0.6535 | Test Accuracy:  77.22%
+--------------------
+Finished Training. Best Test Accuracy: 77.22%
+Training time: 9.39 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.389 Million
+Epoch 1 | Train Loss: 1.5569 | Train Accuracy: 42.50%
+Epoch 1 | Test Loss:  1.2817 | Test Accuracy:  53.65%
+--------------------
+Epoch 2 | Train Loss: 1.1848 | Train Accuracy: 57.02%
+Epoch 2 | Test Loss:  1.1124 | Test Accuracy:  59.58%
+--------------------
+Epoch 3 | Train Loss: 1.0324 | Train Accuracy: 62.66%
+Epoch 3 | Test Loss:  1.0239 | Test Accuracy:  62.90%
+--------------------
+Epoch 4 | Train Loss: 0.9200 | Train Accuracy: 67.02%
+Epoch 4 | Test Loss:  0.9667 | Test Accuracy:  65.27%
+--------------------
+Epoch 5 | Train Loss: 0.8285 | Train Accuracy: 70.33%
+Epoch 5 | Test Loss:  0.9131 | Test Accuracy:  67.48%
+--------------------
+Finished Training. Best Test Accuracy: 67.48%
+Training time: 6.67 minutes
+==================== 
+
+Freezeing 8 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.3778 | Train Accuracy: 48.82%
+Epoch 1 | Test Loss:  1.0330 | Test Accuracy:  62.06%
+--------------------
+Epoch 2 | Train Loss: 0.8896 | Train Accuracy: 67.86%
+Epoch 2 | Test Loss:  0.7924 | Test Accuracy:  71.71%
+--------------------
+Epoch 3 | Train Loss: 0.6873 | Train Accuracy: 75.66%
+Epoch 3 | Test Loss:  0.6763 | Test Accuracy:  76.37%
+--------------------
+Epoch 4 | Train Loss: 0.5624 | Train Accuracy: 80.15%
+Epoch 4 | Test Loss:  0.6300 | Test Accuracy:  78.39%
+--------------------
+Epoch 5 | Train Loss: 0.4730 | Train Accuracy: 83.40%
+Epoch 5 | Test Loss:  0.5843 | Test Accuracy:  80.05%
+--------------------
+Finished Training. Best Test Accuracy: 80.05%
+Training time: 9.39 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.367 Million
+Epoch 1 | Train Loss: 1.5109 | Train Accuracy: 44.21%
+Epoch 1 | Test Loss:  1.2293 | Test Accuracy:  55.61%
+--------------------
+Epoch 2 | Train Loss: 1.1249 | Train Accuracy: 59.17%
+Epoch 2 | Test Loss:  1.0677 | Test Accuracy:  61.42%
+--------------------
+Epoch 3 | Train Loss: 0.9681 | Train Accuracy: 65.08%
+Epoch 3 | Test Loss:  0.9759 | Test Accuracy:  65.32%
+--------------------
+Epoch 4 | Train Loss: 0.8550 | Train Accuracy: 69.23%
+Epoch 4 | Test Loss:  0.9294 | Test Accuracy:  67.05%
+--------------------
+Epoch 5 | Train Loss: 0.7642 | Train Accuracy: 72.66%
+Epoch 5 | Test Loss:  0.8873 | Test Accuracy:  68.76%
+--------------------
+Finished Training. Best Test Accuracy: 68.76%
+Training time: 6.43 minutes
+==================== 
+
+Freezeing 9 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.3437 | Train Accuracy: 49.99%
+Epoch 1 | Test Loss:  0.9060 | Test Accuracy:  67.66%
+--------------------
+Epoch 2 | Train Loss: 0.7872 | Train Accuracy: 71.94%
+Epoch 2 | Test Loss:  0.6972 | Test Accuracy:  75.27%
+--------------------
+Epoch 3 | Train Loss: 0.6034 | Train Accuracy: 78.67%
+Epoch 3 | Test Loss:  0.6006 | Test Accuracy:  79.47%
+--------------------
+Epoch 4 | Train Loss: 0.4897 | Train Accuracy: 82.80%
+Epoch 4 | Test Loss:  0.5563 | Test Accuracy:  80.97%
+--------------------
+Epoch 5 | Train Loss: 0.4117 | Train Accuracy: 85.57%
+Epoch 5 | Test Loss:  0.5284 | Test Accuracy:  82.33%
+--------------------
+Finished Training. Best Test Accuracy: 82.33%
+Training time: 9.41 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.338 Million
+Epoch 1 | Train Loss: 1.4866 | Train Accuracy: 45.38%
+Epoch 1 | Test Loss:  1.1937 | Test Accuracy:  56.96%
+--------------------
+Epoch 2 | Train Loss: 1.0850 | Train Accuracy: 61.03%
+Epoch 2 | Test Loss:  1.0326 | Test Accuracy:  62.74%
+--------------------
+Epoch 3 | Train Loss: 0.9353 | Train Accuracy: 66.61%
+Epoch 3 | Test Loss:  0.9584 | Test Accuracy:  65.19%
+--------------------
+Epoch 4 | Train Loss: 0.8251 | Train Accuracy: 70.64%
+Epoch 4 | Test Loss:  0.9103 | Test Accuracy:  67.65%
+--------------------
+Epoch 5 | Train Loss: 0.7322 | Train Accuracy: 73.99%
+Epoch 5 | Test Loss:  0.8858 | Test Accuracy:  69.16%
+--------------------
+Finished Training. Best Test Accuracy: 69.16%
+Training time: 6.20 minutes
+==================== 
+
+Freezeing 10 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.1232 | Train Accuracy: 59.53%
+Epoch 1 | Test Loss:  0.7079 | Test Accuracy:  74.76%
+--------------------
+Epoch 2 | Train Loss: 0.6115 | Train Accuracy: 78.66%
+Epoch 2 | Test Loss:  0.5489 | Test Accuracy:  81.11%
+--------------------
+Epoch 3 | Train Loss: 0.4627 | Train Accuracy: 83.94%
+Epoch 3 | Test Loss:  0.4808 | Test Accuracy:  83.61%
+--------------------
+Epoch 4 | Train Loss: 0.3708 | Train Accuracy: 86.99%
+Epoch 4 | Test Loss:  0.4376 | Test Accuracy:  84.80%
+--------------------
+Epoch 5 | Train Loss: 0.3042 | Train Accuracy: 89.51%
+Epoch 5 | Test Loss:  0.4313 | Test Accuracy:  85.10%
+--------------------
+Finished Training. Best Test Accuracy: 85.10%
+Training time: 9.39 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.246 Million
+Epoch 1 | Train Loss: 1.3828 | Train Accuracy: 49.74%
+Epoch 1 | Test Loss:  1.0871 | Test Accuracy:  61.05%
+--------------------
+Epoch 2 | Train Loss: 1.0055 | Train Accuracy: 63.80%
+Epoch 2 | Test Loss:  0.9604 | Test Accuracy:  65.81%
+--------------------
+Epoch 3 | Train Loss: 0.8717 | Train Accuracy: 68.98%
+Epoch 3 | Test Loss:  0.8905 | Test Accuracy:  68.55%
+--------------------
+Epoch 4 | Train Loss: 0.7761 | Train Accuracy: 72.43%
+Epoch 4 | Test Loss:  0.8686 | Test Accuracy:  69.47%
+--------------------
+Epoch 5 | Train Loss: 0.7052 | Train Accuracy: 75.19%
+Epoch 5 | Test Loss:  0.8550 | Test Accuracy:  70.43%
+--------------------
+Finished Training. Best Test Accuracy: 70.43%
+Training time: 5.89 minutes
+==================== 
+
+Freezeing 11 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Epoch 1 | Train Loss: 1.1144 | Train Accuracy: 59.74%
+Epoch 1 | Test Loss:  0.7133 | Test Accuracy:  74.73%
+--------------------
+Epoch 2 | Train Loss: 0.5967 | Train Accuracy: 79.17%
+Epoch 2 | Test Loss:  0.5244 | Test Accuracy:  81.55%
+--------------------
+Epoch 3 | Train Loss: 0.4502 | Train Accuracy: 84.40%
+Epoch 3 | Test Loss:  0.4516 | Test Accuracy:  84.37%
+--------------------
+Epoch 4 | Train Loss: 0.3594 | Train Accuracy: 87.39%
+Epoch 4 | Test Loss:  0.4180 | Test Accuracy:  85.88%
+--------------------
+Epoch 5 | Train Loss: 0.2935 | Train Accuracy: 89.82%
+Epoch 5 | Test Loss:  0.3986 | Test Accuracy:  86.68%
+--------------------
+Finished Training. Best Test Accuracy: 86.68%
+Training time: 9.46 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 0.952 Million
+Epoch 1 | Train Loss: 1.4475 | Train Accuracy: 48.16%
+Epoch 1 | Test Loss:  1.1845 | Test Accuracy:  57.51%
+--------------------
+Epoch 2 | Train Loss: 1.0951 | Train Accuracy: 60.88%
+Epoch 2 | Test Loss:  1.0486 | Test Accuracy:  62.74%
+--------------------
+Epoch 3 | Train Loss: 0.9791 | Train Accuracy: 65.33%
+Epoch 3 | Test Loss:  0.9806 | Test Accuracy:  65.39%
+--------------------
+Epoch 4 | Train Loss: 0.9076 | Train Accuracy: 67.78%
+Epoch 4 | Test Loss:  0.9423 | Test Accuracy:  66.57%
+--------------------
+Epoch 5 | Train Loss: 0.8501 | Train Accuracy: 69.87%
+Epoch 5 | Test Loss:  0.9100 | Test Accuracy:  68.22%
+--------------------
+Finished Training. Best Test Accuracy: 68.22%
+Training time: 5.40 minutes
+==================== 
+
+Training completed!

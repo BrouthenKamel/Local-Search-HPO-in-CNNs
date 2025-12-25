@@ -67,7 +67,7 @@ class InvertedResidual(nn.Module):
 
 class MobileNetV3Small(nn.Module):
     
-    def __init__(self, config: MobileNetConfig = original_config, num_classes=1000, pretrained: bool = False, freeze_blocks_until: Union[int, str] = 0, freeze: bool = False):
+    def __init__(self, config: MobileNetConfig = original_config, num_classes=1000, pretrained: bool = False, freeze_blocks_until: Union[int, str] = 0, freeze: bool = False, initialize: bool = False):
         super().__init__()
 
         layers = []
@@ -93,6 +93,14 @@ class MobileNetV3Small(nn.Module):
             nn.Dropout(p=config.classifier_config.dropout_rate, inplace=True),
             nn.Linear(config.classifier_config.neurons, num_classes)
         )
+        
+        # Initialize classifier weights
+        if initialize:
+            for m in self.classifier:
+                if isinstance(m, nn.Linear):
+                    nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                    if m.bias is not None:
+                        nn.init.zeros_(m.bias)
 
         if pretrained:
             weights = models.MobileNet_V3_Small_Weights.IMAGENET1K_V1
@@ -113,6 +121,30 @@ class MobileNetV3Small(nn.Module):
                     for layer in freezeable_layers[:freeze_blocks_until]:
                         for param in layer.parameters():
                             param.requires_grad = False
+                            
+            for idx, block in enumerate(self.features):
+                if idx < freeze_blocks_until:
+                    continue  # skip pretrained blocks
+                for m in block.modules():
+                    if isinstance(m, nn.Conv2d):
+                        nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                        if m.bias is not None:
+                            nn.init.zeros_(m.bias)
+                    elif isinstance(m, nn.BatchNorm2d):
+                        nn.init.ones_(m.weight)
+                        nn.init.zeros_(m.bias)
+        
+        else:
+            if initialize:
+                # No pretrained weights: initialize everything
+                for m in self.modules():
+                    if isinstance(m, nn.Conv2d):
+                        nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                        if m.bias is not None:
+                            nn.init.zeros_(m.bias)
+                    elif isinstance(m, nn.BatchNorm2d):
+                        nn.init.ones_(m.weight)
+                        nn.init.zeros_(m.bias)
 
     def forward(self, x):
         x = self.features(x)

@@ -34,6 +34,8 @@ def get_optimizer(model: nn.Module, training_params: TrainingParams):
         return optim.SGD(model.parameters(), **kwargs)
     elif training_params.optimizer == OptimizerType.ADAM:
         return optim.Adam(model.parameters(), **kwargs)
+    elif training_params.optimizer == OptimizerType.ADAMW:
+        return optim.AdamW(model.parameters(), **kwargs)
     elif training_params.optimizer == OptimizerType.RMSPROP:
         return optim.RMSprop(model.parameters(), **kwargs)
     elif training_params.optimizer == OptimizerType.ADGARAD:

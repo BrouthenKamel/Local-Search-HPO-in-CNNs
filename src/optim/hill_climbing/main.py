@@ -10,10 +10,10 @@ from src.schema.dataset import DatasetName
 from src.optim.hill_climbing.algorithm import hill_climbing_optimization
 
 # Load dataset
-dataset = load_dataset(DatasetName.CIFAR10)
+dataset = load_dataset(DatasetName.CIFAR10, augment=True, augmentation_type='auto')
 
 # Initialize hyperparameter space
-f = 8
+f = 7
 hp_space = MobileNetHPSpace(freeze_blocks_until=f)
 
 # Run hill climbing optimization
@@ -21,13 +21,13 @@ best_hp, history = hill_climbing_optimization(
     initial_hp=original_hp,
     hp_space=hp_space,
     dataset=dataset,
-    iterations=8,
+    iterations=10,
     neighbors_per_iteration=4,
-    max_epochs=12,
+    max_epochs=20,
     block_modification_ratio=0.8,
-    param_modification_ratio=0.6,
-    perturbation_intensity=1,
-    perturbation_strategy="random",
+    param_modification_ratio=0.5,
+    perturbation_intensity=2,
+    perturbation_strategy="local",
     freeze_blocks_until=f
 )
 
@@ -37,7 +37,7 @@ print("Best Hyperparameters Found:")
 print(best_hp.to_dict())
 print("=" * 40)
 
-name = "history"
+name = f"it_10_n_4_ep_20_blr_0.8_pmr_0.5_pi_2_local_freeze_{f}"
 record_dir = "src/optim/hill_climbing/records"
 
 with open(f"{record_dir}/{name}.json", 'w') as f:
