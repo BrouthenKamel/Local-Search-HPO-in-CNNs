@@ -13,7 +13,7 @@ from src.optim.hill_climbing.algorithm import hill_climbing_optimization
 dataset = load_dataset(DatasetName.CIFAR10, augment=True, augmentation_type='auto')
 
 # Initialize hyperparameter space
-f = 7
+f = 9
 hp_space = MobileNetHPSpace(freeze_blocks_until=f)
 
 # Run hill climbing optimization

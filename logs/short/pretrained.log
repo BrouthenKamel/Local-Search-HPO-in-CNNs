@@ -1,0 +1,155 @@
+Freezeing 0 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 62.24%
+Training time: 9.02 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 63.07%
+Training time: 9.11 minutes
+==================== 
+
+Freezeing 1 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 63.77%
+Training time: 9.22 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 65.10%
+Training time: 8.70 minutes
+==================== 
+
+Freezeing 2 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 64.05%
+Training time: 9.24 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.527 Million
+Finished Training. Best Test Accuracy: 64.07%
+Training time: 8.43 minutes
+==================== 
+
+Freezeing 3 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 69.38%
+Training time: 9.37 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.523 Million
+Finished Training. Best Test Accuracy: 66.93%
+Training time: 7.90 minutes
+==================== 
+
+Freezeing 4 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 67.91%
+Training time: 9.29 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.518 Million
+Finished Training. Best Test Accuracy: 66.46%
+Training time: 7.63 minutes
+==================== 
+
+Freezeing 5 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 73.51%
+Training time: 9.33 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.504 Million
+Finished Training. Best Test Accuracy: 68.04%
+Training time: 7.28 minutes
+==================== 
+
+Freezeing 6 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 75.10%
+Training time: 9.35 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.447 Million
+Finished Training. Best Test Accuracy: 68.36%
+Training time: 7.01 minutes
+==================== 
+
+Freezeing 7 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 77.22%
+Training time: 9.39 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.389 Million
+Finished Training. Best Test Accuracy: 67.48%
+Training time: 6.67 minutes
+==================== 
+
+Freezeing 8 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 80.05%
+Training time: 9.39 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.367 Million
+Finished Training. Best Test Accuracy: 68.76%
+Training time: 6.43 minutes
+==================== 
+
+Freezeing 9 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 82.33%
+Training time: 9.41 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.338 Million
+Finished Training. Best Test Accuracy: 69.16%
+Training time: 6.20 minutes
+==================== 
+
+Freezeing 10 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 85.10%
+Training time: 9.39 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 1.246 Million
+Finished Training. Best Test Accuracy: 70.43%
+Training time: 5.89 minutes
+==================== 
+
+Freezeing 11 blocks...
+Freezing weights: False
+Model parameters: 1.528 Million
+Finished Training. Best Test Accuracy: 86.68%
+Training time: 9.46 minutes
+==================== 
+
+Freezing weights: True
+Model parameters: 0.952 Million
+Finished Training. Best Test Accuracy: 68.22%
+Training time: 5.40 minutes
+==================== 

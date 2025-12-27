@@ -144,7 +144,7 @@ def hill_climbing_optimization(
             'iteration': iter_idx + 1,
             'best_hp': current_hp.to_dict(),
             'best_perf': current_perf,
-            'parameters': count_parameters(model)
+            'parameters': count_parameters(final_model)
         })
         print(f"Iteration {iter_idx+1} complete. Best so far: {current_perf:.4f}")
 

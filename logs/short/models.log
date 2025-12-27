@@ -1,0 +1,69 @@
+Training (RESNET) on (CIFAR10) with pretrained=False
+--------------------
+Finished Training. Best Test Accuracy: 76.66%
+Parameters: 11.181642 Million
+Training time: 12.39 minutes
+====================
+
+Training (RESNET) on (CIFAR10) with pretrained=True
+--------------------
+Finished Training. Best Test Accuracy: 93.91%
+Parameters: 11.181642 Million
+Training time: 12.40 minutes
+====================
+
+Training (EFFICIENTNET) on (CIFAR10) with pretrained=False
+--------------------
+Finished Training. Best Test Accuracy: 77.17%
+Parameters: 4.020358 Million
+Training time: 22.11 minutes
+====================
+
+Training (EFFICIENTNET) on (CIFAR10) with pretrained=True
+--------------------
+Finished Training. Best Test Accuracy: 96.49%
+Parameters: 4.020358 Million
+Training time: 22.13 minutes
+====================
+
+Training (MOBILENET) on (CIFAR10) with pretrained=False
+--------------------
+Finished Training. Best Test Accuracy: 67.45%
+Parameters: 1.528106 Million
+Training time: 7.51 minutes
+====================
+
+Training (MOBILENET) on (CIFAR10) with pretrained=True
+--------------------
+Finished Training. Best Test Accuracy: 94.19%
+Parameters: 1.528106 Million
+Training time: 7.54 minutes
+====================
+
+Training (REGNET) on (CIFAR10) with pretrained=False
+--------------------
+Finished Training. Best Test Accuracy: 64.38%
+Parameters: 3.907554 Million
+Training time: 14.89 minutes
+====================
+
+Training (REGNET) on (CIFAR10) with pretrained=True
+--------------------
+Finished Training. Best Test Accuracy: 95.29%
+Parameters: 3.907554 Million
+Training time: 14.90 minutes
+====================
+
+Training (SQUEEZENET) on (CIFAR10) with pretrained=False
+--------------------
+Finished Training. Best Test Accuracy: 55.78%
+Parameters: 0.740554 Million
+Training time: 12.37 minutes
+====================
+
+Training (SQUEEZENET) on (CIFAR10) with pretrained=True
+--------------------
+Finished Training. Best Test Accuracy: 87.29%
+Parameters: 0.740554 Million
+Training time: 12.42 minutes
+====================

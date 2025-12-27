@@ -25,3 +25,1460 @@ Epoch 7 | Test Loss:  0.5878 | Test Accuracy:  79.42%
 Epoch 8 | Train Loss: 0.6889 | Train Accuracy: 75.66%
 Epoch 8 | Test Loss:  0.5664 | Test Accuracy:  80.80%
 --------------------
+Epoch 9 | Train Loss: 0.6507 | Train Accuracy: 77.25%
+Epoch 9 | Test Loss:  0.5411 | Test Accuracy:  81.37%
+--------------------
+Epoch 10 | Train Loss: 0.6192 | Train Accuracy: 78.27%
+Epoch 10 | Test Loss:  0.5242 | Test Accuracy:  82.28%
+--------------------
+Epoch 11 | Train Loss: 0.5905 | Train Accuracy: 79.34%
+Epoch 11 | Test Loss:  0.5196 | Test Accuracy:  82.18%
+--------------------
+Epoch 12 | Train Loss: 0.5649 | Train Accuracy: 80.23%
+Epoch 12 | Test Loss:  0.5084 | Test Accuracy:  83.02%
+--------------------
+Epoch 13 | Train Loss: 0.5291 | Train Accuracy: 81.54%
+Epoch 13 | Test Loss:  0.4920 | Test Accuracy:  83.43%
+--------------------
+Epoch 14 | Train Loss: 0.5183 | Train Accuracy: 82.04%
+Epoch 14 | Test Loss:  0.4766 | Test Accuracy:  84.25%
+--------------------
+Epoch 15 | Train Loss: 0.4996 | Train Accuracy: 82.60%
+Epoch 15 | Test Loss:  0.4682 | Test Accuracy:  84.36%
+--------------------
+Epoch 16 | Train Loss: 0.4753 | Train Accuracy: 83.39%
+Epoch 16 | Test Loss:  0.4629 | Test Accuracy:  84.42%
+--------------------
+Epoch 17 | Train Loss: 0.4619 | Train Accuracy: 83.74%
+Epoch 17 | Test Loss:  0.4461 | Test Accuracy:  84.81%
+--------------------
+Epoch 18 | Train Loss: 0.4414 | Train Accuracy: 84.61%
+Epoch 18 | Test Loss:  0.4620 | Test Accuracy:  84.85%
+--------------------
+Epoch 19 | Train Loss: 0.4260 | Train Accuracy: 84.97%
+Epoch 19 | Test Loss:  0.4680 | Test Accuracy:  84.70%
+--------------------
+Epoch 20 | Train Loss: 0.4168 | Train Accuracy: 85.52%
+Epoch 20 | Test Loss:  0.4531 | Test Accuracy:  85.01%
+--------------------
+Finished Training. Best Test Accuracy: 85.01%
+Evaluated model with test_accuracy=85.0100, time=43.28 minutes
+
+=== Iteration 1/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.391 Million
+Epoch 1 | Train Loss: 1.7608 | Train Accuracy: 33.43%
+Epoch 1 | Test Loss:  1.2701 | Test Accuracy:  53.46%
+--------------------
+Epoch 2 | Train Loss: 1.3514 | Train Accuracy: 50.74%
+Epoch 2 | Test Loss:  1.0136 | Test Accuracy:  63.21%
+--------------------
+Epoch 3 | Train Loss: 1.1684 | Train Accuracy: 57.52%
+Epoch 3 | Test Loss:  0.8716 | Test Accuracy:  68.93%
+--------------------
+Epoch 4 | Train Loss: 1.0476 | Train Accuracy: 62.33%
+Epoch 4 | Test Loss:  0.7957 | Test Accuracy:  71.77%
+--------------------
+Finished Training. Best Test Accuracy: 71.77%
+Evaluated model with test_accuracy=71.7700, time=7.89 minutes
+Model parameters: 1.441 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 896]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.673 Million
+Epoch 1 | Train Loss: 1.7458 | Train Accuracy: 34.27%
+Epoch 1 | Test Loss:  1.2278 | Test Accuracy:  54.59%
+--------------------
+Epoch 2 | Train Loss: 1.3105 | Train Accuracy: 52.20%
+Epoch 2 | Test Loss:  0.9723 | Test Accuracy:  64.85%
+--------------------
+Epoch 3 | Train Loss: 1.1312 | Train Accuracy: 59.37%
+Epoch 3 | Test Loss:  0.8490 | Test Accuracy:  69.66%
+--------------------
+Epoch 4 | Train Loss: 0.9968 | Train Accuracy: 64.27%
+Epoch 4 | Test Loss:  0.7670 | Test Accuracy:  73.17%
+--------------------
+Finished Training. Best Test Accuracy: 73.17%
+Evaluated model with test_accuracy=73.1700, time=7.85 minutes
+Model parameters: 1.545 Million
+Epoch 1 | Train Loss: 1.9258 | Train Accuracy: 26.41%
+Epoch 1 | Test Loss:  1.4674 | Test Accuracy:  45.21%
+--------------------
+Epoch 2 | Train Loss: 1.5092 | Train Accuracy: 44.36%
+Epoch 2 | Test Loss:  1.1507 | Test Accuracy:  57.60%
+--------------------
+Epoch 3 | Train Loss: 1.3098 | Train Accuracy: 52.43%
+Epoch 3 | Test Loss:  1.0047 | Test Accuracy:  64.17%
+--------------------
+Epoch 4 | Train Loss: 1.1694 | Train Accuracy: 57.81%
+Epoch 4 | Test Loss:  0.8973 | Test Accuracy:  67.83%
+--------------------
+Finished Training. Best Test Accuracy: 67.83%
+Evaluated model with test_accuracy=67.8300, time=7.43 minutes
+Model parameters: 0.916 Million
+Epoch 1 | Train Loss: 1.7982 | Train Accuracy: 32.52%
+Epoch 1 | Test Loss:  1.2282 | Test Accuracy:  54.64%
+--------------------
+Epoch 2 | Train Loss: 1.3336 | Train Accuracy: 51.60%
+Epoch 2 | Test Loss:  1.0049 | Test Accuracy:  63.17%
+--------------------
+Epoch 3 | Train Loss: 1.1644 | Train Accuracy: 58.11%
+Epoch 3 | Test Loss:  0.8899 | Test Accuracy:  67.97%
+--------------------
+Epoch 4 | Train Loss: 1.0545 | Train Accuracy: 62.03%
+Epoch 4 | Test Loss:  0.8148 | Test Accuracy:  71.05%
+--------------------
+Finished Training. Best Test Accuracy: 71.05%
+Evaluated model with test_accuracy=71.0500, time=7.70 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.673 Million
+Epoch 1 | Train Loss: 0.9024 | Train Accuracy: 67.99%
+Epoch 1 | Test Loss:  0.7023 | Test Accuracy:  75.22%
+--------------------
+Epoch 2 | Train Loss: 0.8269 | Train Accuracy: 70.91%
+Epoch 2 | Test Loss:  0.6446 | Test Accuracy:  77.90%
+--------------------
+Epoch 3 | Train Loss: 0.7673 | Train Accuracy: 73.20%
+Epoch 3 | Test Loss:  0.6148 | Test Accuracy:  78.53%
+--------------------
+Epoch 4 | Train Loss: 0.7169 | Train Accuracy: 75.01%
+Epoch 4 | Test Loss:  0.5960 | Test Accuracy:  79.26%
+--------------------
+Finished Training. Best Test Accuracy: 79.26%
+Evaluated model with test_accuracy=79.2600, time=8.05 minutes
+Model parameters: 1.391 Million
+Epoch 1 | Train Loss: 0.9591 | Train Accuracy: 65.97%
+Epoch 1 | Test Loss:  0.7137 | Test Accuracy:  74.85%
+--------------------
+Epoch 2 | Train Loss: 0.8799 | Train Accuracy: 69.05%
+Epoch 2 | Test Loss:  0.6841 | Test Accuracy:  75.93%
+--------------------
+Epoch 3 | Train Loss: 0.8325 | Train Accuracy: 70.63%
+Epoch 3 | Test Loss:  0.6386 | Test Accuracy:  77.56%
+--------------------
+Epoch 4 | Train Loss: 0.7802 | Train Accuracy: 72.54%
+Epoch 4 | Test Loss:  0.6155 | Test Accuracy:  78.55%
+--------------------
+Finished Training. Best Test Accuracy: 78.55%
+Evaluated model with test_accuracy=78.5500, time=7.98 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.673 Million
+Epoch 1 | Train Loss: 0.6767 | Train Accuracy: 76.34%
+Epoch 1 | Test Loss:  0.5682 | Test Accuracy:  80.39%
+--------------------
+Epoch 2 | Train Loss: 0.6433 | Train Accuracy: 77.55%
+Epoch 2 | Test Loss:  0.5426 | Test Accuracy:  80.67%
+--------------------
+Epoch 3 | Train Loss: 0.6112 | Train Accuracy: 78.57%
+Epoch 3 | Test Loss:  0.5307 | Test Accuracy:  81.38%
+--------------------
+Epoch 4 | Train Loss: 0.5855 | Train Accuracy: 79.52%
+Epoch 4 | Test Loss:  0.5187 | Test Accuracy:  82.09%
+--------------------
+Epoch 5 | Train Loss: 0.5518 | Train Accuracy: 80.65%
+Epoch 5 | Test Loss:  0.5051 | Test Accuracy:  82.85%
+--------------------
+Epoch 6 | Train Loss: 0.5344 | Train Accuracy: 81.23%
+Epoch 6 | Test Loss:  0.5057 | Test Accuracy:  82.96%
+--------------------
+Epoch 7 | Train Loss: 0.5051 | Train Accuracy: 82.22%
+Epoch 7 | Test Loss:  0.4903 | Test Accuracy:  83.24%
+--------------------
+Epoch 8 | Train Loss: 0.4855 | Train Accuracy: 83.03%
+Epoch 8 | Test Loss:  0.4852 | Test Accuracy:  83.84%
+--------------------
+Epoch 9 | Train Loss: 0.4670 | Train Accuracy: 83.54%
+Epoch 9 | Test Loss:  0.4894 | Test Accuracy:  83.43%
+--------------------
+Epoch 10 | Train Loss: 0.4520 | Train Accuracy: 84.19%
+Epoch 10 | Test Loss:  0.4811 | Test Accuracy:  83.95%
+--------------------
+Epoch 11 | Train Loss: 0.4277 | Train Accuracy: 85.01%
+Epoch 11 | Test Loss:  0.4853 | Test Accuracy:  84.55%
+--------------------
+Epoch 12 | Train Loss: 0.4173 | Train Accuracy: 85.41%
+Epoch 12 | Test Loss:  0.4735 | Test Accuracy:  84.29%
+--------------------
+Finished Training. Best Test Accuracy: 84.55%
+Evaluated model with test_accuracy=84.5500, time=24.09 minutes
+Final model did not outperform current best.
+Iteration 1 complete. Best so far: 85.0100
+
+=== Iteration 2/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.378 Million
+Epoch 1 | Train Loss: 1.7038 | Train Accuracy: 36.65%
+Epoch 1 | Test Loss:  1.1611 | Test Accuracy:  57.49%
+--------------------
+Epoch 2 | Train Loss: 1.2773 | Train Accuracy: 53.48%
+Epoch 2 | Test Loss:  0.9466 | Test Accuracy:  65.43%
+--------------------
+Epoch 3 | Train Loss: 1.1164 | Train Accuracy: 59.66%
+Epoch 3 | Test Loss:  0.8258 | Test Accuracy:  70.32%
+--------------------
+Epoch 4 | Train Loss: 1.0021 | Train Accuracy: 64.03%
+Epoch 4 | Test Loss:  0.7632 | Test Accuracy:  72.99%
+--------------------
+Finished Training. Best Test Accuracy: 72.99%
+Evaluated model with test_accuracy=72.9900, time=7.78 minutes
+Model parameters: 1.024 Million
+Epoch 1 | Train Loss: 1.8276 | Train Accuracy: 30.01%
+Epoch 1 | Test Loss:  1.3529 | Test Accuracy:  47.92%
+--------------------
+Epoch 2 | Train Loss: 1.3721 | Train Accuracy: 49.26%
+Epoch 2 | Test Loss:  1.0162 | Test Accuracy:  62.22%
+--------------------
+Epoch 3 | Train Loss: 1.1652 | Train Accuracy: 57.49%
+Epoch 3 | Test Loss:  0.8762 | Test Accuracy:  67.71%
+--------------------
+Epoch 4 | Train Loss: 1.0375 | Train Accuracy: 62.47%
+Epoch 4 | Test Loss:  0.7902 | Test Accuracy:  71.31%
+--------------------
+Finished Training. Best Test Accuracy: 71.31%
+Evaluated model with test_accuracy=71.3100, time=7.71 minutes
+Model parameters: 1.341 Million
+Epoch 1 | Train Loss: 1.7046 | Train Accuracy: 35.65%
+Epoch 1 | Test Loss:  1.1698 | Test Accuracy:  56.38%
+--------------------
+Epoch 2 | Train Loss: 1.2752 | Train Accuracy: 53.85%
+Epoch 2 | Test Loss:  0.9484 | Test Accuracy:  65.40%
+--------------------
+Epoch 3 | Train Loss: 1.0929 | Train Accuracy: 60.74%
+Epoch 3 | Test Loss:  0.8383 | Test Accuracy:  70.06%
+--------------------
+Epoch 4 | Train Loss: 0.9786 | Train Accuracy: 65.24%
+Epoch 4 | Test Loss:  0.7539 | Test Accuracy:  73.79%
+--------------------
+Finished Training. Best Test Accuracy: 73.79%
+Evaluated model with test_accuracy=73.7900, time=7.92 minutes
+Model parameters: 1.409 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 896]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.365 Million
+Epoch 1 | Train Loss: 1.6493 | Train Accuracy: 38.99%
+Epoch 1 | Test Loss:  1.1317 | Test Accuracy:  59.02%
+--------------------
+Epoch 2 | Train Loss: 1.2341 | Train Accuracy: 55.42%
+Epoch 2 | Test Loss:  0.9179 | Test Accuracy:  67.16%
+--------------------
+Epoch 3 | Train Loss: 1.0649 | Train Accuracy: 61.71%
+Epoch 3 | Test Loss:  0.8342 | Test Accuracy:  69.42%
+--------------------
+Epoch 4 | Train Loss: 0.9463 | Train Accuracy: 66.45%
+Epoch 4 | Test Loss:  0.7211 | Test Accuracy:  74.45%
+--------------------
+Finished Training. Best Test Accuracy: 74.45%
+Evaluated model with test_accuracy=74.4500, time=8.06 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.365 Million
+Epoch 1 | Train Loss: 0.8677 | Train Accuracy: 69.38%
+Epoch 1 | Test Loss:  0.6592 | Test Accuracy:  76.70%
+--------------------
+Epoch 2 | Train Loss: 0.8148 | Train Accuracy: 71.24%
+Epoch 2 | Test Loss:  0.6388 | Test Accuracy:  77.37%
+--------------------
+Epoch 3 | Train Loss: 0.7623 | Train Accuracy: 73.18%
+Epoch 3 | Test Loss:  0.5822 | Test Accuracy:  79.64%
+--------------------
+Epoch 4 | Train Loss: 0.7160 | Train Accuracy: 74.83%
+Epoch 4 | Test Loss:  0.5643 | Test Accuracy:  80.16%
+--------------------
+Finished Training. Best Test Accuracy: 80.16%
+Evaluated model with test_accuracy=80.1600, time=8.11 minutes
+Model parameters: 1.341 Million
+Epoch 1 | Train Loss: 0.8906 | Train Accuracy: 68.19%
+Epoch 1 | Test Loss:  0.6860 | Test Accuracy:  76.12%
+--------------------
+Epoch 2 | Train Loss: 0.8277 | Train Accuracy: 70.76%
+Epoch 2 | Test Loss:  0.6505 | Test Accuracy:  77.07%
+--------------------
+Epoch 3 | Train Loss: 0.7755 | Train Accuracy: 72.95%
+Epoch 3 | Test Loss:  0.6048 | Test Accuracy:  79.06%
+--------------------
+Epoch 4 | Train Loss: 0.7331 | Train Accuracy: 74.45%
+Epoch 4 | Test Loss:  0.5825 | Test Accuracy:  79.87%
+--------------------
+Finished Training. Best Test Accuracy: 79.87%
+Evaluated model with test_accuracy=79.8700, time=8.00 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.365 Million
+Epoch 1 | Train Loss: 0.6806 | Train Accuracy: 75.91%
+Epoch 1 | Test Loss:  0.5448 | Test Accuracy:  80.94%
+--------------------
+Epoch 2 | Train Loss: 0.6456 | Train Accuracy: 77.33%
+Epoch 2 | Test Loss:  0.5385 | Test Accuracy:  81.09%
+--------------------
+Epoch 3 | Train Loss: 0.6150 | Train Accuracy: 78.47%
+Epoch 3 | Test Loss:  0.5096 | Test Accuracy:  82.33%
+--------------------
+Epoch 4 | Train Loss: 0.5939 | Train Accuracy: 79.15%
+Epoch 4 | Test Loss:  0.5142 | Test Accuracy:  81.99%
+--------------------
+Epoch 5 | Train Loss: 0.5730 | Train Accuracy: 79.94%
+Epoch 5 | Test Loss:  0.5063 | Test Accuracy:  82.67%
+--------------------
+Epoch 6 | Train Loss: 0.5478 | Train Accuracy: 80.75%
+Epoch 6 | Test Loss:  0.4967 | Test Accuracy:  83.23%
+--------------------
+Epoch 7 | Train Loss: 0.5300 | Train Accuracy: 81.38%
+Epoch 7 | Test Loss:  0.4834 | Test Accuracy:  83.67%
+--------------------
+Epoch 8 | Train Loss: 0.5078 | Train Accuracy: 82.20%
+Epoch 8 | Test Loss:  0.4576 | Test Accuracy:  84.26%
+--------------------
+Epoch 9 | Train Loss: 0.4971 | Train Accuracy: 82.63%
+Epoch 9 | Test Loss:  0.4681 | Test Accuracy:  84.31%
+--------------------
+Epoch 10 | Train Loss: 0.4768 | Train Accuracy: 83.34%
+Epoch 10 | Test Loss:  0.4509 | Test Accuracy:  84.99%
+--------------------
+Epoch 11 | Train Loss: 0.4596 | Train Accuracy: 83.99%
+Epoch 11 | Test Loss:  0.4553 | Test Accuracy:  84.84%
+--------------------
+Epoch 12 | Train Loss: 0.4472 | Train Accuracy: 84.29%
+Epoch 12 | Test Loss:  0.4702 | Test Accuracy:  84.50%
+--------------------
+Finished Training. Best Test Accuracy: 84.99%
+Evaluated model with test_accuracy=84.9900, time=24.37 minutes
+Final model did not outperform current best.
+Iteration 2 complete. Best so far: 85.0100
+
+=== Iteration 3/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.444 Million
+Epoch 1 | Train Loss: 1.6908 | Train Accuracy: 36.41%
+Epoch 1 | Test Loss:  1.1411 | Test Accuracy:  58.25%
+--------------------
+Epoch 2 | Train Loss: 1.2479 | Train Accuracy: 54.94%
+Epoch 2 | Test Loss:  0.9330 | Test Accuracy:  66.63%
+--------------------
+Epoch 3 | Train Loss: 1.0690 | Train Accuracy: 61.82%
+Epoch 3 | Test Loss:  0.7937 | Test Accuracy:  71.85%
+--------------------
+Epoch 4 | Train Loss: 0.9464 | Train Accuracy: 66.69%
+Epoch 4 | Test Loss:  0.7188 | Test Accuracy:  74.68%
+--------------------
+Finished Training. Best Test Accuracy: 74.68%
+Evaluated model with test_accuracy=74.6800, time=7.84 minutes
+Model parameters: 1.533 Million
+Epoch 1 | Train Loss: 1.7232 | Train Accuracy: 35.55%
+Epoch 1 | Test Loss:  1.2147 | Test Accuracy:  55.61%
+--------------------
+Epoch 2 | Train Loss: 1.3077 | Train Accuracy: 52.72%
+Epoch 2 | Test Loss:  0.9948 | Test Accuracy:  63.47%
+--------------------
+Epoch 3 | Train Loss: 1.1342 | Train Accuracy: 59.49%
+Epoch 3 | Test Loss:  0.8435 | Test Accuracy:  69.62%
+--------------------
+Epoch 4 | Train Loss: 1.0084 | Train Accuracy: 63.91%
+Epoch 4 | Test Loss:  0.7628 | Test Accuracy:  72.94%
+--------------------
+Finished Training. Best Test Accuracy: 72.94%
+Evaluated model with test_accuracy=72.9400, time=7.79 minutes
+Model parameters: 1.477 Million
+Epoch 1 | Train Loss: 1.6601 | Train Accuracy: 37.97%
+Epoch 1 | Test Loss:  1.1186 | Test Accuracy:  59.21%
+--------------------
+Epoch 2 | Train Loss: 1.2265 | Train Accuracy: 55.49%
+Epoch 2 | Test Loss:  0.9144 | Test Accuracy:  67.01%
+--------------------
+Epoch 3 | Train Loss: 1.0605 | Train Accuracy: 62.11%
+Epoch 3 | Test Loss:  0.7888 | Test Accuracy:  71.08%
+--------------------
+Epoch 4 | Train Loss: 0.9484 | Train Accuracy: 66.48%
+Epoch 4 | Test Loss:  0.7151 | Test Accuracy:  74.69%
+--------------------
+Finished Training. Best Test Accuracy: 74.69%
+Evaluated model with test_accuracy=74.6900, time=7.92 minutes
+Model parameters: 1.685 Million
+Epoch 1 | Train Loss: 1.6451 | Train Accuracy: 39.13%
+Epoch 1 | Test Loss:  1.0968 | Test Accuracy:  60.27%
+--------------------
+Epoch 2 | Train Loss: 1.2263 | Train Accuracy: 55.53%
+Epoch 2 | Test Loss:  0.8949 | Test Accuracy:  67.69%
+--------------------
+Epoch 3 | Train Loss: 1.0466 | Train Accuracy: 62.54%
+Epoch 3 | Test Loss:  0.7821 | Test Accuracy:  71.80%
+--------------------
+Epoch 4 | Train Loss: 0.9240 | Train Accuracy: 67.10%
+Epoch 4 | Test Loss:  0.6852 | Test Accuracy:  75.85%
+--------------------
+Finished Training. Best Test Accuracy: 75.85%
+Evaluated model with test_accuracy=75.8500, time=8.42 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.685 Million
+Epoch 1 | Train Loss: 0.8365 | Train Accuracy: 70.62%
+Epoch 1 | Test Loss:  0.6402 | Test Accuracy:  77.31%
+--------------------
+Epoch 2 | Train Loss: 0.7728 | Train Accuracy: 72.65%
+Epoch 2 | Test Loss:  0.5941 | Test Accuracy:  78.94%
+--------------------
+Epoch 3 | Train Loss: 0.7205 | Train Accuracy: 74.73%
+Epoch 3 | Test Loss:  0.5605 | Test Accuracy:  80.26%
+--------------------
+Epoch 4 | Train Loss: 0.6762 | Train Accuracy: 76.22%
+Epoch 4 | Test Loss:  0.5369 | Test Accuracy:  81.23%
+--------------------
+Finished Training. Best Test Accuracy: 81.23%
+Evaluated model with test_accuracy=81.2300, time=8.59 minutes
+Model parameters: 1.477 Million
+Epoch 1 | Train Loss: 0.8735 | Train Accuracy: 69.17%
+Epoch 1 | Test Loss:  0.6619 | Test Accuracy:  76.56%
+--------------------
+Epoch 2 | Train Loss: 0.7972 | Train Accuracy: 71.96%
+Epoch 2 | Test Loss:  0.6226 | Test Accuracy:  78.26%
+--------------------
+Epoch 3 | Train Loss: 0.7556 | Train Accuracy: 73.43%
+Epoch 3 | Test Loss:  0.5945 | Test Accuracy:  79.50%
+--------------------
+Epoch 4 | Train Loss: 0.7168 | Train Accuracy: 74.87%
+Epoch 4 | Test Loss:  0.5747 | Test Accuracy:  80.00%
+--------------------
+Finished Training. Best Test Accuracy: 80.00%
+Evaluated model with test_accuracy=80.0000, time=7.99 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.685 Million
+Epoch 1 | Train Loss: 0.6370 | Train Accuracy: 77.86%
+Epoch 1 | Test Loss:  0.5150 | Test Accuracy:  81.99%
+--------------------
+Epoch 2 | Train Loss: 0.6009 | Train Accuracy: 78.92%
+Epoch 2 | Test Loss:  0.5086 | Test Accuracy:  82.31%
+--------------------
+Epoch 3 | Train Loss: 0.5714 | Train Accuracy: 79.94%
+Epoch 3 | Test Loss:  0.5009 | Test Accuracy:  82.83%
+--------------------
+Epoch 4 | Train Loss: 0.5495 | Train Accuracy: 80.67%
+Epoch 4 | Test Loss:  0.4786 | Test Accuracy:  83.46%
+--------------------
+Epoch 5 | Train Loss: 0.5215 | Train Accuracy: 81.75%
+Epoch 5 | Test Loss:  0.4763 | Test Accuracy:  83.39%
+--------------------
+Epoch 6 | Train Loss: 0.4997 | Train Accuracy: 82.33%
+Epoch 6 | Test Loss:  0.4625 | Test Accuracy:  84.20%
+--------------------
+Epoch 7 | Train Loss: 0.4816 | Train Accuracy: 83.07%
+Epoch 7 | Test Loss:  0.4552 | Test Accuracy:  84.79%
+--------------------
+Epoch 8 | Train Loss: 0.4625 | Train Accuracy: 83.74%
+Epoch 8 | Test Loss:  0.4652 | Test Accuracy:  84.10%
+--------------------
+Epoch 9 | Train Loss: 0.4430 | Train Accuracy: 84.30%
+Epoch 9 | Test Loss:  0.4432 | Test Accuracy:  84.95%
+--------------------
+Epoch 10 | Train Loss: 0.4253 | Train Accuracy: 85.19%
+Epoch 10 | Test Loss:  0.4404 | Test Accuracy:  85.40%
+--------------------
+Epoch 11 | Train Loss: 0.4052 | Train Accuracy: 85.74%
+Epoch 11 | Test Loss:  0.4535 | Test Accuracy:  85.08%
+--------------------
+Epoch 12 | Train Loss: 0.3997 | Train Accuracy: 85.96%
+Epoch 12 | Test Loss:  0.4473 | Test Accuracy:  85.10%
+--------------------
+Finished Training. Best Test Accuracy: 85.40%
+Evaluated model with test_accuracy=85.4000, time=25.53 minutes
+New best model found! Accuracy: 85.4000
+Iteration 3 complete. Best so far: 85.4000
+
+=== Iteration 4/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.687 Million
+Epoch 1 | Train Loss: 1.7010 | Train Accuracy: 36.15%
+Epoch 1 | Test Loss:  1.1714 | Test Accuracy:  56.91%
+--------------------
+Epoch 2 | Train Loss: 1.2667 | Train Accuracy: 53.98%
+Epoch 2 | Test Loss:  0.9704 | Test Accuracy:  65.13%
+--------------------
+Epoch 3 | Train Loss: 1.1060 | Train Accuracy: 60.40%
+Epoch 3 | Test Loss:  0.8244 | Test Accuracy:  70.26%
+--------------------
+Epoch 4 | Train Loss: 0.9821 | Train Accuracy: 64.72%
+Epoch 4 | Test Loss:  0.7434 | Test Accuracy:  73.35%
+--------------------
+Finished Training. Best Test Accuracy: 73.35%
+Evaluated model with test_accuracy=73.3500, time=8.28 minutes
+Model parameters: 1.417 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 1024]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.628 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 1024]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.408 Million
+Epoch 1 | Train Loss: 1.6735 | Train Accuracy: 37.59%
+Epoch 1 | Test Loss:  1.1430 | Test Accuracy:  58.19%
+--------------------
+Epoch 2 | Train Loss: 1.2453 | Train Accuracy: 54.88%
+Epoch 2 | Test Loss:  0.9203 | Test Accuracy:  66.79%
+--------------------
+Epoch 3 | Train Loss: 1.0665 | Train Accuracy: 61.82%
+Epoch 3 | Test Loss:  0.7982 | Test Accuracy:  71.81%
+--------------------
+Epoch 4 | Train Loss: 0.9383 | Train Accuracy: 66.77%
+Epoch 4 | Test Loss:  0.7035 | Test Accuracy:  75.43%
+--------------------
+Finished Training. Best Test Accuracy: 75.43%
+Evaluated model with test_accuracy=75.4300, time=7.86 minutes
+Model parameters: 1.232 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 1024]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.446 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 1024]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.699 Million
+Epoch 1 | Train Loss: 1.6972 | Train Accuracy: 36.75%
+Epoch 1 | Test Loss:  1.2004 | Test Accuracy:  56.39%
+--------------------
+Epoch 2 | Train Loss: 1.3168 | Train Accuracy: 52.47%
+Epoch 2 | Test Loss:  0.9960 | Test Accuracy:  63.55%
+--------------------
+Epoch 3 | Train Loss: 1.1470 | Train Accuracy: 58.74%
+Epoch 3 | Test Loss:  0.8836 | Test Accuracy:  67.76%
+--------------------
+Epoch 4 | Train Loss: 1.0297 | Train Accuracy: 63.21%
+Epoch 4 | Test Loss:  0.8125 | Test Accuracy:  70.71%
+--------------------
+Finished Training. Best Test Accuracy: 70.71%
+Evaluated model with test_accuracy=70.7100, time=8.34 minutes
+Model parameters: 1.693 Million
+Epoch 1 | Train Loss: 1.6725 | Train Accuracy: 37.85%
+Epoch 1 | Test Loss:  1.1357 | Test Accuracy:  58.11%
+--------------------
+Epoch 2 | Train Loss: 1.2445 | Train Accuracy: 54.92%
+Epoch 2 | Test Loss:  0.8930 | Test Accuracy:  67.71%
+--------------------
+Epoch 3 | Train Loss: 1.0536 | Train Accuracy: 62.35%
+Epoch 3 | Test Loss:  0.7718 | Test Accuracy:  72.57%
+--------------------
+Epoch 4 | Train Loss: 0.9316 | Train Accuracy: 66.84%
+Epoch 4 | Test Loss:  0.6958 | Test Accuracy:  75.58%
+--------------------
+Finished Training. Best Test Accuracy: 75.58%
+Evaluated model with test_accuracy=75.5800, time=8.06 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.693 Million
+Epoch 1 | Train Loss: 0.8405 | Train Accuracy: 70.54%
+Epoch 1 | Test Loss:  0.6448 | Test Accuracy:  77.19%
+--------------------
+Epoch 2 | Train Loss: 0.7787 | Train Accuracy: 72.54%
+Epoch 2 | Test Loss:  0.6005 | Test Accuracy:  78.47%
+--------------------
+Epoch 3 | Train Loss: 0.7149 | Train Accuracy: 75.01%
+Epoch 3 | Test Loss:  0.5700 | Test Accuracy:  80.04%
+--------------------
+Epoch 4 | Train Loss: 0.6684 | Train Accuracy: 76.70%
+Epoch 4 | Test Loss:  0.5717 | Test Accuracy:  80.28%
+--------------------
+Finished Training. Best Test Accuracy: 80.28%
+Evaluated model with test_accuracy=80.2800, time=8.17 minutes
+Model parameters: 1.408 Million
+Epoch 1 | Train Loss: 0.8454 | Train Accuracy: 70.16%
+Epoch 1 | Test Loss:  0.6617 | Test Accuracy:  76.60%
+--------------------
+Epoch 2 | Train Loss: 0.7776 | Train Accuracy: 72.42%
+Epoch 2 | Test Loss:  0.6164 | Test Accuracy:  78.61%
+--------------------
+Epoch 3 | Train Loss: 0.7303 | Train Accuracy: 74.29%
+Epoch 3 | Test Loss:  0.5878 | Test Accuracy:  79.94%
+--------------------
+Epoch 4 | Train Loss: 0.6802 | Train Accuracy: 76.09%
+Epoch 4 | Test Loss:  0.5527 | Test Accuracy:  80.80%
+--------------------
+Finished Training. Best Test Accuracy: 80.80%
+Evaluated model with test_accuracy=80.8000, time=7.87 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.408 Million
+Epoch 1 | Train Loss: 0.6339 | Train Accuracy: 77.71%
+Epoch 1 | Test Loss:  0.5349 | Test Accuracy:  81.27%
+--------------------
+Epoch 2 | Train Loss: 0.6031 | Train Accuracy: 78.80%
+Epoch 2 | Test Loss:  0.5441 | Test Accuracy:  81.20%
+--------------------
+Epoch 3 | Train Loss: 0.5699 | Train Accuracy: 80.00%
+Epoch 3 | Test Loss:  0.5202 | Test Accuracy:  82.37%
+--------------------
+Epoch 4 | Train Loss: 0.5486 | Train Accuracy: 80.76%
+Epoch 4 | Test Loss:  0.5153 | Test Accuracy:  82.61%
+--------------------
+Epoch 5 | Train Loss: 0.5222 | Train Accuracy: 81.61%
+Epoch 5 | Test Loss:  0.4967 | Test Accuracy:  83.31%
+--------------------
+Epoch 6 | Train Loss: 0.4878 | Train Accuracy: 82.92%
+Epoch 6 | Test Loss:  0.4906 | Test Accuracy:  83.65%
+--------------------
+Epoch 7 | Train Loss: 0.4800 | Train Accuracy: 83.21%
+Epoch 7 | Test Loss:  0.4764 | Test Accuracy:  84.17%
+--------------------
+Epoch 8 | Train Loss: 0.4523 | Train Accuracy: 84.04%
+Epoch 8 | Test Loss:  0.4820 | Test Accuracy:  84.03%
+--------------------
+Epoch 9 | Train Loss: 0.4343 | Train Accuracy: 84.84%
+Epoch 9 | Test Loss:  0.4831 | Test Accuracy:  84.06%
+--------------------
+Epoch 10 | Train Loss: 0.4227 | Train Accuracy: 85.32%
+Epoch 10 | Test Loss:  0.4762 | Test Accuracy:  84.51%
+--------------------
+Epoch 11 | Train Loss: 0.4061 | Train Accuracy: 85.85%
+Epoch 11 | Test Loss:  0.4870 | Test Accuracy:  84.22%
+--------------------
+Epoch 12 | Train Loss: 0.3851 | Train Accuracy: 86.57%
+Epoch 12 | Test Loss:  0.4732 | Test Accuracy:  84.95%
+--------------------
+Finished Training. Best Test Accuracy: 84.95%
+Evaluated model with test_accuracy=84.9500, time=23.66 minutes
+Final model did not outperform current best.
+Iteration 4 complete. Best so far: 85.4000
+
+=== Iteration 5/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.672 Million
+Epoch 1 | Train Loss: 1.6389 | Train Accuracy: 38.94%
+Epoch 1 | Test Loss:  1.1336 | Test Accuracy:  58.74%
+--------------------
+Epoch 2 | Train Loss: 1.2333 | Train Accuracy: 55.37%
+Epoch 2 | Test Loss:  0.9109 | Test Accuracy:  67.00%
+--------------------
+Epoch 3 | Train Loss: 1.0596 | Train Accuracy: 61.76%
+Epoch 3 | Test Loss:  0.7977 | Test Accuracy:  71.44%
+--------------------
+Epoch 4 | Train Loss: 0.9462 | Train Accuracy: 66.43%
+Epoch 4 | Test Loss:  0.7167 | Test Accuracy:  74.17%
+--------------------
+Finished Training. Best Test Accuracy: 74.17%
+Evaluated model with test_accuracy=74.1700, time=8.38 minutes
+Model parameters: 1.447 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 896]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.526 Million
+Epoch 1 | Train Loss: 1.7469 | Train Accuracy: 34.52%
+Epoch 1 | Test Loss:  1.2540 | Test Accuracy:  54.42%
+--------------------
+Epoch 2 | Train Loss: 1.3427 | Train Accuracy: 51.11%
+Epoch 2 | Test Loss:  1.0055 | Test Accuracy:  63.21%
+--------------------
+Epoch 3 | Train Loss: 1.1583 | Train Accuracy: 58.26%
+Epoch 3 | Test Loss:  0.8681 | Test Accuracy:  68.21%
+--------------------
+Epoch 4 | Train Loss: 1.0359 | Train Accuracy: 62.89%
+Epoch 4 | Test Loss:  0.7689 | Test Accuracy:  72.23%
+--------------------
+Finished Training. Best Test Accuracy: 72.23%
+Evaluated model with test_accuracy=72.2300, time=8.08 minutes
+Model parameters: 1.553 Million
+Epoch 1 | Train Loss: 1.8533 | Train Accuracy: 29.63%
+Epoch 1 | Test Loss:  1.3315 | Test Accuracy:  50.86%
+--------------------
+Epoch 2 | Train Loss: 1.4263 | Train Accuracy: 48.12%
+Epoch 2 | Test Loss:  1.0887 | Test Accuracy:  60.33%
+--------------------
+Epoch 3 | Train Loss: 1.2399 | Train Accuracy: 55.30%
+Epoch 3 | Test Loss:  0.9629 | Test Accuracy:  65.23%
+--------------------
+Epoch 4 | Train Loss: 1.1112 | Train Accuracy: 59.94%
+Epoch 4 | Test Loss:  0.8666 | Test Accuracy:  68.89%
+--------------------
+Finished Training. Best Test Accuracy: 68.89%
+Evaluated model with test_accuracy=68.8900, time=7.70 minutes
+Model parameters: 1.633 Million
+Epoch 1 | Train Loss: 1.6572 | Train Accuracy: 38.28%
+Epoch 1 | Test Loss:  1.0951 | Test Accuracy:  59.80%
+--------------------
+Epoch 2 | Train Loss: 1.2232 | Train Accuracy: 55.72%
+Epoch 2 | Test Loss:  0.8869 | Test Accuracy:  67.60%
+--------------------
+Epoch 3 | Train Loss: 1.0444 | Train Accuracy: 62.62%
+Epoch 3 | Test Loss:  0.7667 | Test Accuracy:  72.24%
+--------------------
+Epoch 4 | Train Loss: 0.9282 | Train Accuracy: 67.14%
+Epoch 4 | Test Loss:  0.7024 | Test Accuracy:  75.42%
+--------------------
+Finished Training. Best Test Accuracy: 75.42%
+Evaluated model with test_accuracy=75.4200, time=7.78 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.633 Million
+Epoch 1 | Train Loss: 0.8450 | Train Accuracy: 70.29%
+Epoch 1 | Test Loss:  0.6552 | Test Accuracy:  76.81%
+--------------------
+Epoch 2 | Train Loss: 0.7734 | Train Accuracy: 72.80%
+Epoch 2 | Test Loss:  0.6165 | Test Accuracy:  78.58%
+--------------------
+Epoch 3 | Train Loss: 0.7231 | Train Accuracy: 74.56%
+Epoch 3 | Test Loss:  0.5790 | Test Accuracy:  79.74%
+--------------------
+Epoch 4 | Train Loss: 0.6767 | Train Accuracy: 76.16%
+Epoch 4 | Test Loss:  0.5593 | Test Accuracy:  80.62%
+--------------------
+Finished Training. Best Test Accuracy: 80.62%
+Evaluated model with test_accuracy=80.6200, time=7.85 minutes
+Model parameters: 1.672 Million
+Epoch 1 | Train Loss: 0.8556 | Train Accuracy: 69.73%
+Epoch 1 | Test Loss:  0.6748 | Test Accuracy:  75.96%
+--------------------
+Epoch 2 | Train Loss: 0.7866 | Train Accuracy: 72.46%
+Epoch 2 | Test Loss:  0.6067 | Test Accuracy:  78.54%
+--------------------
+Epoch 3 | Train Loss: 0.7318 | Train Accuracy: 74.36%
+Epoch 3 | Test Loss:  0.5735 | Test Accuracy:  79.82%
+--------------------
+Epoch 4 | Train Loss: 0.6853 | Train Accuracy: 75.92%
+Epoch 4 | Test Loss:  0.5554 | Test Accuracy:  80.71%
+--------------------
+Finished Training. Best Test Accuracy: 80.71%
+Evaluated model with test_accuracy=80.7100, time=8.39 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.672 Million
+Epoch 1 | Train Loss: 0.6440 | Train Accuracy: 77.43%
+Epoch 1 | Test Loss:  0.5247 | Test Accuracy:  81.80%
+--------------------
+Epoch 2 | Train Loss: 0.6106 | Train Accuracy: 78.52%
+Epoch 2 | Test Loss:  0.5109 | Test Accuracy:  82.28%
+--------------------
+Epoch 3 | Train Loss: 0.5752 | Train Accuracy: 79.88%
+Epoch 3 | Test Loss:  0.5027 | Test Accuracy:  82.95%
+--------------------
+Epoch 4 | Train Loss: 0.5536 | Train Accuracy: 80.71%
+Epoch 4 | Test Loss:  0.4918 | Test Accuracy:  83.26%
+--------------------
+Epoch 5 | Train Loss: 0.5262 | Train Accuracy: 81.61%
+Epoch 5 | Test Loss:  0.4754 | Test Accuracy:  83.37%
+--------------------
+Epoch 6 | Train Loss: 0.5059 | Train Accuracy: 82.27%
+Epoch 6 | Test Loss:  0.4700 | Test Accuracy:  83.51%
+--------------------
+Epoch 7 | Train Loss: 0.4867 | Train Accuracy: 82.91%
+Epoch 7 | Test Loss:  0.4435 | Test Accuracy:  84.65%
+--------------------
+Epoch 8 | Train Loss: 0.4617 | Train Accuracy: 84.03%
+Epoch 8 | Test Loss:  0.4460 | Test Accuracy:  84.77%
+--------------------
+Epoch 9 | Train Loss: 0.4421 | Train Accuracy: 84.52%
+Epoch 9 | Test Loss:  0.4452 | Test Accuracy:  85.14%
+--------------------
+Epoch 10 | Train Loss: 0.4349 | Train Accuracy: 84.68%
+Epoch 10 | Test Loss:  0.4319 | Test Accuracy:  85.34%
+--------------------
+Epoch 11 | Train Loss: 0.4170 | Train Accuracy: 85.24%
+Epoch 11 | Test Loss:  0.4474 | Test Accuracy:  85.28%
+--------------------
+Epoch 12 | Train Loss: 0.3943 | Train Accuracy: 86.21%
+Epoch 12 | Test Loss:  0.4433 | Test Accuracy:  85.38%
+--------------------
+Finished Training. Best Test Accuracy: 85.38%
+Evaluated model with test_accuracy=85.3800, time=25.17 minutes
+Final model did not outperform current best.
+Iteration 5 complete. Best so far: 85.4000
+
+=== Iteration 6/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.396 Million
+Epoch 1 | Train Loss: 1.8870 | Train Accuracy: 28.44%
+Epoch 1 | Test Loss:  1.4384 | Test Accuracy:  46.63%
+--------------------
+Epoch 2 | Train Loss: 1.5001 | Train Accuracy: 44.69%
+Epoch 2 | Test Loss:  1.1590 | Test Accuracy:  57.51%
+--------------------
+Epoch 3 | Train Loss: 1.3022 | Train Accuracy: 52.79%
+Epoch 3 | Test Loss:  1.0060 | Test Accuracy:  63.76%
+--------------------
+Epoch 4 | Train Loss: 1.1771 | Train Accuracy: 57.57%
+Epoch 4 | Test Loss:  0.9334 | Test Accuracy:  66.70%
+--------------------
+Finished Training. Best Test Accuracy: 66.70%
+Evaluated model with test_accuracy=66.7000, time=7.80 minutes
+Model parameters: 1.453 Million
+Epoch 1 | Train Loss: 1.8284 | Train Accuracy: 30.89%
+Epoch 1 | Test Loss:  1.2975 | Test Accuracy:  52.79%
+--------------------
+Epoch 2 | Train Loss: 1.3860 | Train Accuracy: 49.33%
+Epoch 2 | Test Loss:  1.0703 | Test Accuracy:  60.73%
+--------------------
+Epoch 3 | Train Loss: 1.2103 | Train Accuracy: 56.18%
+Epoch 3 | Test Loss:  0.9234 | Test Accuracy:  66.79%
+--------------------
+Epoch 4 | Train Loss: 1.0852 | Train Accuracy: 61.00%
+Epoch 4 | Test Loss:  0.8304 | Test Accuracy:  70.41%
+--------------------
+Finished Training. Best Test Accuracy: 70.41%
+Evaluated model with test_accuracy=70.4100, time=7.78 minutes
+Model parameters: 1.173 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 1024]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.685 Million
+Epoch 1 | Train Loss: 1.6251 | Train Accuracy: 39.55%
+Epoch 1 | Test Loss:  1.1218 | Test Accuracy:  59.03%
+--------------------
+Epoch 2 | Train Loss: 1.2373 | Train Accuracy: 55.06%
+Epoch 2 | Test Loss:  0.9308 | Test Accuracy:  65.90%
+--------------------
+Epoch 3 | Train Loss: 1.0703 | Train Accuracy: 61.66%
+Epoch 3 | Test Loss:  0.8027 | Test Accuracy:  71.12%
+--------------------
+Epoch 4 | Train Loss: 0.9604 | Train Accuracy: 65.83%
+Epoch 4 | Test Loss:  0.7196 | Test Accuracy:  74.87%
+--------------------
+Finished Training. Best Test Accuracy: 74.87%
+Evaluated model with test_accuracy=74.8700, time=8.48 minutes
+Model parameters: 1.458 Million
+Epoch 1 | Train Loss: 1.6690 | Train Accuracy: 37.97%
+Epoch 1 | Test Loss:  1.1410 | Test Accuracy:  58.57%
+--------------------
+Epoch 2 | Train Loss: 1.2447 | Train Accuracy: 55.10%
+Epoch 2 | Test Loss:  0.9230 | Test Accuracy:  67.03%
+--------------------
+Epoch 3 | Train Loss: 1.0666 | Train Accuracy: 61.89%
+Epoch 3 | Test Loss:  0.7846 | Test Accuracy:  72.27%
+--------------------
+Epoch 4 | Train Loss: 0.9415 | Train Accuracy: 66.82%
+Epoch 4 | Test Loss:  0.7065 | Test Accuracy:  75.40%
+--------------------
+Finished Training. Best Test Accuracy: 75.40%
+Evaluated model with test_accuracy=75.4000, time=8.39 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.458 Million
+Epoch 1 | Train Loss: 0.8518 | Train Accuracy: 69.96%
+Epoch 1 | Test Loss:  0.6402 | Test Accuracy:  77.69%
+--------------------
+Epoch 2 | Train Loss: 0.7871 | Train Accuracy: 72.54%
+Epoch 2 | Test Loss:  0.6057 | Test Accuracy:  79.11%
+--------------------
+Epoch 3 | Train Loss: 0.7330 | Train Accuracy: 74.13%
+Epoch 3 | Test Loss:  0.5745 | Test Accuracy:  80.05%
+--------------------
+Epoch 4 | Train Loss: 0.6890 | Train Accuracy: 75.86%
+Epoch 4 | Test Loss:  0.5468 | Test Accuracy:  81.06%
+--------------------
+Finished Training. Best Test Accuracy: 81.06%
+Evaluated model with test_accuracy=81.0600, time=8.46 minutes
+Model parameters: 1.685 Million
+Epoch 1 | Train Loss: 0.8742 | Train Accuracy: 69.12%
+Epoch 1 | Test Loss:  0.6614 | Test Accuracy:  76.87%
+--------------------
+Epoch 2 | Train Loss: 0.8088 | Train Accuracy: 71.44%
+Epoch 2 | Test Loss:  0.6587 | Test Accuracy:  77.15%
+--------------------
+Epoch 3 | Train Loss: 0.7562 | Train Accuracy: 73.38%
+Epoch 3 | Test Loss:  0.6042 | Test Accuracy:  79.13%
+--------------------
+Epoch 4 | Train Loss: 0.7032 | Train Accuracy: 75.28%
+Epoch 4 | Test Loss:  0.5702 | Test Accuracy:  80.43%
+--------------------
+Finished Training. Best Test Accuracy: 80.43%
+Evaluated model with test_accuracy=80.4300, time=8.48 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.458 Million
+Epoch 1 | Train Loss: 0.6501 | Train Accuracy: 77.27%
+Epoch 1 | Test Loss:  0.5388 | Test Accuracy:  81.66%
+--------------------
+Epoch 2 | Train Loss: 0.6127 | Train Accuracy: 78.48%
+Epoch 2 | Test Loss:  0.5025 | Test Accuracy:  82.91%
+--------------------
+Epoch 3 | Train Loss: 0.5804 | Train Accuracy: 79.72%
+Epoch 3 | Test Loss:  0.5231 | Test Accuracy:  82.44%
+--------------------
+Epoch 4 | Train Loss: 0.5480 | Train Accuracy: 80.82%
+Epoch 4 | Test Loss:  0.5101 | Test Accuracy:  83.02%
+--------------------
+Epoch 5 | Train Loss: 0.5258 | Train Accuracy: 81.70%
+Epoch 5 | Test Loss:  0.4947 | Test Accuracy:  83.22%
+--------------------
+Epoch 6 | Train Loss: 0.4993 | Train Accuracy: 82.61%
+Epoch 6 | Test Loss:  0.4820 | Test Accuracy:  84.44%
+--------------------
+Epoch 7 | Train Loss: 0.4836 | Train Accuracy: 83.11%
+Epoch 7 | Test Loss:  0.4666 | Test Accuracy:  84.37%
+--------------------
+Epoch 8 | Train Loss: 0.4577 | Train Accuracy: 84.09%
+Epoch 8 | Test Loss:  0.4766 | Test Accuracy:  84.43%
+--------------------
+Epoch 9 | Train Loss: 0.4409 | Train Accuracy: 84.56%
+Epoch 9 | Test Loss:  0.4621 | Test Accuracy:  85.19%
+--------------------
+Epoch 10 | Train Loss: 0.4286 | Train Accuracy: 85.06%
+Epoch 10 | Test Loss:  0.4689 | Test Accuracy:  85.07%
+--------------------
+Epoch 11 | Train Loss: 0.4123 | Train Accuracy: 85.53%
+Epoch 11 | Test Loss:  0.4688 | Test Accuracy:  84.93%
+--------------------
+Epoch 12 | Train Loss: 0.4027 | Train Accuracy: 85.92%
+Epoch 12 | Test Loss:  0.4622 | Test Accuracy:  85.36%
+--------------------
+Finished Training. Best Test Accuracy: 85.36%
+Evaluated model with test_accuracy=85.3600, time=25.34 minutes
+Final model did not outperform current best.
+Iteration 6 complete. Best so far: 85.4000
+
+=== Iteration 7/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.438 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 1024]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.010 Million
+Epoch 1 | Train Loss: 1.6571 | Train Accuracy: 38.44%
+Epoch 1 | Test Loss:  1.1252 | Test Accuracy:  58.72%
+--------------------
+Epoch 2 | Train Loss: 1.2109 | Train Accuracy: 56.51%
+Epoch 2 | Test Loss:  0.8850 | Test Accuracy:  68.18%
+--------------------
+Epoch 3 | Train Loss: 1.0265 | Train Accuracy: 63.45%
+Epoch 3 | Test Loss:  0.7487 | Test Accuracy:  73.68%
+--------------------
+Epoch 4 | Train Loss: 0.9154 | Train Accuracy: 67.55%
+Epoch 4 | Test Loss:  0.6846 | Test Accuracy:  76.09%
+--------------------
+Finished Training. Best Test Accuracy: 76.09%
+Evaluated model with test_accuracy=76.0900, time=8.10 minutes
+Model parameters: 1.216 Million
+Epoch 1 | Train Loss: 1.7403 | Train Accuracy: 34.72%
+Epoch 1 | Test Loss:  1.1853 | Test Accuracy:  56.10%
+--------------------
+Epoch 2 | Train Loss: 1.2887 | Train Accuracy: 53.38%
+Epoch 2 | Test Loss:  0.9767 | Test Accuracy:  64.73%
+--------------------
+Epoch 3 | Train Loss: 1.1158 | Train Accuracy: 59.77%
+Epoch 3 | Test Loss:  0.8494 | Test Accuracy:  69.36%
+--------------------
+Epoch 4 | Train Loss: 0.9989 | Train Accuracy: 64.32%
+Epoch 4 | Test Loss:  0.7725 | Test Accuracy:  71.75%
+--------------------
+Finished Training. Best Test Accuracy: 71.75%
+Evaluated model with test_accuracy=71.7500, time=7.85 minutes
+Model parameters: 1.001 Million
+Epoch 1 | Train Loss: 1.6698 | Train Accuracy: 37.86%
+Epoch 1 | Test Loss:  1.1537 | Test Accuracy:  58.02%
+--------------------
+Epoch 2 | Train Loss: 1.2365 | Train Accuracy: 55.08%
+Epoch 2 | Test Loss:  0.9180 | Test Accuracy:  67.16%
+--------------------
+Epoch 3 | Train Loss: 1.0618 | Train Accuracy: 61.81%
+Epoch 3 | Test Loss:  0.8070 | Test Accuracy:  71.44%
+--------------------
+Epoch 4 | Train Loss: 0.9475 | Train Accuracy: 66.16%
+Epoch 4 | Test Loss:  0.7234 | Test Accuracy:  74.51%
+--------------------
+Finished Training. Best Test Accuracy: 74.51%
+Evaluated model with test_accuracy=74.5100, time=8.03 minutes
+Model parameters: 1.484 Million
+Epoch 1 | Train Loss: 1.6264 | Train Accuracy: 39.23%
+Epoch 1 | Test Loss:  1.0788 | Test Accuracy:  61.27%
+--------------------
+Epoch 2 | Train Loss: 1.2015 | Train Accuracy: 56.41%
+Epoch 2 | Test Loss:  0.8614 | Test Accuracy:  69.40%
+--------------------
+Epoch 3 | Train Loss: 1.0309 | Train Accuracy: 63.27%
+Epoch 3 | Test Loss:  0.7571 | Test Accuracy:  73.30%
+--------------------
+Epoch 4 | Train Loss: 0.9113 | Train Accuracy: 67.67%
+Epoch 4 | Test Loss:  0.6804 | Test Accuracy:  76.00%
+--------------------
+Finished Training. Best Test Accuracy: 76.00%
+Evaluated model with test_accuracy=76.0000, time=8.24 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.010 Million
+Epoch 1 | Train Loss: 0.8268 | Train Accuracy: 71.16%
+Epoch 1 | Test Loss:  0.6232 | Test Accuracy:  77.88%
+--------------------
+Epoch 2 | Train Loss: 0.7574 | Train Accuracy: 73.45%
+Epoch 2 | Test Loss:  0.5858 | Test Accuracy:  79.53%
+--------------------
+Epoch 3 | Train Loss: 0.7133 | Train Accuracy: 75.17%
+Epoch 3 | Test Loss:  0.5688 | Test Accuracy:  80.13%
+--------------------
+Epoch 4 | Train Loss: 0.6719 | Train Accuracy: 76.51%
+Epoch 4 | Test Loss:  0.5279 | Test Accuracy:  81.42%
+--------------------
+Finished Training. Best Test Accuracy: 81.42%
+Evaluated model with test_accuracy=81.4200, time=8.19 minutes
+Model parameters: 1.484 Million
+Epoch 1 | Train Loss: 0.8256 | Train Accuracy: 71.05%
+Epoch 1 | Test Loss:  0.6342 | Test Accuracy:  77.86%
+--------------------
+Epoch 2 | Train Loss: 0.7622 | Train Accuracy: 73.35%
+Epoch 2 | Test Loss:  0.5956 | Test Accuracy:  79.40%
+--------------------
+Epoch 3 | Train Loss: 0.7107 | Train Accuracy: 75.01%
+Epoch 3 | Test Loss:  0.5557 | Test Accuracy:  80.69%
+--------------------
+Epoch 4 | Train Loss: 0.6693 | Train Accuracy: 76.53%
+Epoch 4 | Test Loss:  0.5338 | Test Accuracy:  81.43%
+--------------------
+Finished Training. Best Test Accuracy: 81.43%
+Evaluated model with test_accuracy=81.4300, time=8.34 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.484 Million
+Epoch 1 | Train Loss: 0.6327 | Train Accuracy: 77.89%
+Epoch 1 | Test Loss:  0.5079 | Test Accuracy:  82.99%
+--------------------
+Epoch 2 | Train Loss: 0.5909 | Train Accuracy: 79.32%
+Epoch 2 | Test Loss:  0.4941 | Test Accuracy:  83.21%
+--------------------
+Epoch 3 | Train Loss: 0.5619 | Train Accuracy: 80.30%
+Epoch 3 | Test Loss:  0.4808 | Test Accuracy:  83.77%
+--------------------
+Epoch 4 | Train Loss: 0.5397 | Train Accuracy: 81.22%
+Epoch 4 | Test Loss:  0.4709 | Test Accuracy:  84.11%
+--------------------
+Epoch 5 | Train Loss: 0.5158 | Train Accuracy: 82.04%
+Epoch 5 | Test Loss:  0.4594 | Test Accuracy:  84.26%
+--------------------
+Epoch 6 | Train Loss: 0.4917 | Train Accuracy: 82.77%
+Epoch 6 | Test Loss:  0.4585 | Test Accuracy:  84.57%
+--------------------
+Epoch 7 | Train Loss: 0.4691 | Train Accuracy: 83.72%
+Epoch 7 | Test Loss:  0.4492 | Test Accuracy:  84.86%
+--------------------
+Epoch 8 | Train Loss: 0.4491 | Train Accuracy: 84.37%
+Epoch 8 | Test Loss:  0.4432 | Test Accuracy:  85.29%
+--------------------
+Epoch 9 | Train Loss: 0.4335 | Train Accuracy: 84.87%
+Epoch 9 | Test Loss:  0.4323 | Test Accuracy:  85.81%
+--------------------
+Epoch 10 | Train Loss: 0.4139 | Train Accuracy: 85.55%
+Epoch 10 | Test Loss:  0.4445 | Test Accuracy:  85.12%
+--------------------
+Epoch 11 | Train Loss: 0.3983 | Train Accuracy: 86.05%
+Epoch 11 | Test Loss:  0.4341 | Test Accuracy:  85.99%
+--------------------
+Epoch 12 | Train Loss: 0.3850 | Train Accuracy: 86.41%
+Epoch 12 | Test Loss:  0.4532 | Test Accuracy:  85.46%
+--------------------
+Finished Training. Best Test Accuracy: 85.99%
+Evaluated model with test_accuracy=85.9900, time=24.93 minutes
+New best model found! Accuracy: 85.9900
+Iteration 7 complete. Best so far: 85.9900
+
+=== Iteration 8/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.475 Million
+Epoch 1 | Train Loss: 1.7972 | Train Accuracy: 33.04%
+Epoch 1 | Test Loss:  1.2326 | Test Accuracy:  54.91%
+--------------------
+Epoch 2 | Train Loss: 1.3436 | Train Accuracy: 51.44%
+Epoch 2 | Test Loss:  1.0013 | Test Accuracy:  63.77%
+--------------------
+Epoch 3 | Train Loss: 1.1706 | Train Accuracy: 57.79%
+Epoch 3 | Test Loss:  0.8851 | Test Accuracy:  68.57%
+--------------------
+Epoch 4 | Train Loss: 1.0498 | Train Accuracy: 62.47%
+Epoch 4 | Test Loss:  0.8306 | Test Accuracy:  70.44%
+--------------------
+Finished Training. Best Test Accuracy: 70.44%
+Evaluated model with test_accuracy=70.4400, time=7.93 minutes
+Model parameters: 1.373 Million
+Epoch 1 | Train Loss: 1.8298 | Train Accuracy: 30.76%
+Epoch 1 | Test Loss:  1.3224 | Test Accuracy:  50.94%
+--------------------
+Epoch 2 | Train Loss: 1.3936 | Train Accuracy: 49.10%
+Epoch 2 | Test Loss:  1.0595 | Test Accuracy:  61.77%
+--------------------
+Epoch 3 | Train Loss: 1.2087 | Train Accuracy: 56.34%
+Epoch 3 | Test Loss:  0.9280 | Test Accuracy:  66.86%
+--------------------
+Epoch 4 | Train Loss: 1.0873 | Train Accuracy: 60.85%
+Epoch 4 | Test Loss:  0.8382 | Test Accuracy:  70.14%
+--------------------
+Finished Training. Best Test Accuracy: 70.14%
+Evaluated model with test_accuracy=70.1400, time=7.82 minutes
+Model parameters: 1.548 Million
+Epoch 1 | Train Loss: 1.6765 | Train Accuracy: 37.54%
+Epoch 1 | Test Loss:  1.1505 | Test Accuracy:  57.80%
+--------------------
+Epoch 2 | Train Loss: 1.2352 | Train Accuracy: 55.50%
+Epoch 2 | Test Loss:  0.9168 | Test Accuracy:  66.74%
+--------------------
+Epoch 3 | Train Loss: 1.0406 | Train Accuracy: 62.97%
+Epoch 3 | Test Loss:  0.7911 | Test Accuracy:  71.70%
+--------------------
+Epoch 4 | Train Loss: 0.9247 | Train Accuracy: 67.25%
+Epoch 4 | Test Loss:  0.7126 | Test Accuracy:  74.50%
+--------------------
+Finished Training. Best Test Accuracy: 74.50%
+Evaluated model with test_accuracy=74.5000, time=8.22 minutes
+Model parameters: 0.977 Million
+Epoch 1 | Train Loss: 1.7824 | Train Accuracy: 32.76%
+Epoch 1 | Test Loss:  1.2598 | Test Accuracy:  53.55%
+--------------------
+Epoch 2 | Train Loss: 1.3533 | Train Accuracy: 50.72%
+Epoch 2 | Test Loss:  1.0372 | Test Accuracy:  62.18%
+--------------------
+Epoch 3 | Train Loss: 1.1853 | Train Accuracy: 57.15%
+Epoch 3 | Test Loss:  0.9094 | Test Accuracy:  67.06%
+--------------------
+Epoch 4 | Train Loss: 1.0795 | Train Accuracy: 61.06%
+Epoch 4 | Test Loss:  0.8329 | Test Accuracy:  69.88%
+--------------------
+Finished Training. Best Test Accuracy: 69.88%
+Evaluated model with test_accuracy=69.8800, time=7.82 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.548 Million
+Epoch 1 | Train Loss: 0.8421 | Train Accuracy: 70.25%
+Epoch 1 | Test Loss:  0.6481 | Test Accuracy:  77.51%
+--------------------
+Epoch 2 | Train Loss: 0.7699 | Train Accuracy: 72.86%
+Epoch 2 | Test Loss:  0.6081 | Test Accuracy:  78.73%
+--------------------
+Epoch 3 | Train Loss: 0.7183 | Train Accuracy: 74.81%
+Epoch 3 | Test Loss:  0.5684 | Test Accuracy:  80.34%
+--------------------
+Epoch 4 | Train Loss: 0.6673 | Train Accuracy: 76.79%
+Epoch 4 | Test Loss:  0.5418 | Test Accuracy:  81.36%
+--------------------
+Finished Training. Best Test Accuracy: 81.36%
+Evaluated model with test_accuracy=81.3600, time=8.25 minutes
+Model parameters: 1.475 Million
+Epoch 1 | Train Loss: 0.9616 | Train Accuracy: 65.79%
+Epoch 1 | Test Loss:  0.7417 | Test Accuracy:  74.01%
+--------------------
+Epoch 2 | Train Loss: 0.8964 | Train Accuracy: 68.21%
+Epoch 2 | Test Loss:  0.6956 | Test Accuracy:  75.40%
+--------------------
+Epoch 3 | Train Loss: 0.8389 | Train Accuracy: 70.31%
+Epoch 3 | Test Loss:  0.6649 | Test Accuracy:  76.99%
+--------------------
+Epoch 4 | Train Loss: 0.7880 | Train Accuracy: 72.23%
+Epoch 4 | Test Loss:  0.6298 | Test Accuracy:  78.46%
+--------------------
+Finished Training. Best Test Accuracy: 78.46%
+Evaluated model with test_accuracy=78.4600, time=7.88 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.548 Million
+Epoch 1 | Train Loss: 0.6373 | Train Accuracy: 77.60%
+Epoch 1 | Test Loss:  0.5380 | Test Accuracy:  81.29%
+--------------------
+Epoch 2 | Train Loss: 0.5992 | Train Accuracy: 79.18%
+Epoch 2 | Test Loss:  0.5202 | Test Accuracy:  81.79%
+--------------------
+Epoch 3 | Train Loss: 0.5671 | Train Accuracy: 80.10%
+Epoch 3 | Test Loss:  0.4932 | Test Accuracy:  83.40%
+--------------------
+Epoch 4 | Train Loss: 0.5422 | Train Accuracy: 81.20%
+Epoch 4 | Test Loss:  0.4815 | Test Accuracy:  83.56%
+--------------------
+Epoch 5 | Train Loss: 0.5153 | Train Accuracy: 81.97%
+Epoch 5 | Test Loss:  0.4712 | Test Accuracy:  83.94%
+--------------------
+Epoch 6 | Train Loss: 0.4919 | Train Accuracy: 82.83%
+Epoch 6 | Test Loss:  0.4689 | Test Accuracy:  84.09%
+--------------------
+Epoch 7 | Train Loss: 0.4742 | Train Accuracy: 83.56%
+Epoch 7 | Test Loss:  0.4686 | Test Accuracy:  84.68%
+--------------------
+Epoch 8 | Train Loss: 0.4489 | Train Accuracy: 84.32%
+Epoch 8 | Test Loss:  0.4490 | Test Accuracy:  85.18%
+--------------------
+Epoch 9 | Train Loss: 0.4365 | Train Accuracy: 84.65%
+Epoch 9 | Test Loss:  0.4502 | Test Accuracy:  85.17%
+--------------------
+Epoch 10 | Train Loss: 0.4228 | Train Accuracy: 85.13%
+Epoch 10 | Test Loss:  0.4645 | Test Accuracy:  84.88%
+--------------------
+Epoch 11 | Train Loss: 0.4025 | Train Accuracy: 85.83%
+Epoch 11 | Test Loss:  0.4497 | Test Accuracy:  85.68%
+--------------------
+Epoch 12 | Train Loss: 0.3902 | Train Accuracy: 86.47%
+Epoch 12 | Test Loss:  0.4485 | Test Accuracy:  85.19%
+--------------------
+Finished Training. Best Test Accuracy: 85.68%
+Evaluated model with test_accuracy=85.6800, time=24.67 minutes
+Final model did not outperform current best.
+Iteration 8 complete. Best so far: 85.9900
+
+=== Iteration 9/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.438 Million
+Epoch 1 | Train Loss: 1.6855 | Train Accuracy: 37.09%
+Epoch 1 | Test Loss:  1.1600 | Test Accuracy:  57.65%
+--------------------
+Epoch 2 | Train Loss: 1.2595 | Train Accuracy: 54.30%
+Epoch 2 | Test Loss:  0.9515 | Test Accuracy:  66.03%
+--------------------
+Epoch 3 | Train Loss: 1.0920 | Train Accuracy: 60.64%
+Epoch 3 | Test Loss:  0.8139 | Test Accuracy:  71.01%
+--------------------
+Epoch 4 | Train Loss: 0.9736 | Train Accuracy: 65.27%
+Epoch 4 | Test Loss:  0.7298 | Test Accuracy:  74.24%
+--------------------
+Finished Training. Best Test Accuracy: 74.24%
+Evaluated model with test_accuracy=74.2400, time=8.12 minutes
+Model parameters: 1.462 Million
+Epoch 1 | Train Loss: 1.6677 | Train Accuracy: 37.69%
+Epoch 1 | Test Loss:  1.1024 | Test Accuracy:  59.88%
+--------------------
+Epoch 2 | Train Loss: 1.2048 | Train Accuracy: 56.52%
+Epoch 2 | Test Loss:  0.8737 | Test Accuracy:  68.38%
+--------------------
+Epoch 3 | Train Loss: 1.0311 | Train Accuracy: 63.07%
+Epoch 3 | Test Loss:  0.7580 | Test Accuracy:  73.04%
+--------------------
+Epoch 4 | Train Loss: 0.9032 | Train Accuracy: 67.84%
+Epoch 4 | Test Loss:  0.6720 | Test Accuracy:  76.29%
+--------------------
+Finished Training. Best Test Accuracy: 76.29%
+Evaluated model with test_accuracy=76.2900, time=8.18 minutes
+Model parameters: 1.233 Million
+Epoch 1 | Train Loss: 1.6468 | Train Accuracy: 38.62%
+Epoch 1 | Test Loss:  1.0744 | Test Accuracy:  60.82%
+--------------------
+Epoch 2 | Train Loss: 1.2012 | Train Accuracy: 56.51%
+Epoch 2 | Test Loss:  0.8708 | Test Accuracy:  68.63%
+--------------------
+Epoch 3 | Train Loss: 1.0271 | Train Accuracy: 63.04%
+Epoch 3 | Test Loss:  0.7561 | Test Accuracy:  73.52%
+--------------------
+Epoch 4 | Train Loss: 0.9188 | Train Accuracy: 67.31%
+Epoch 4 | Test Loss:  0.6991 | Test Accuracy:  75.37%
+--------------------
+Finished Training. Best Test Accuracy: 75.37%
+Evaluated model with test_accuracy=75.3700, time=7.76 minutes
+Model parameters: 1.274 Million
+Epoch 1 | Train Loss: 1.8113 | Train Accuracy: 31.47%
+Epoch 1 | Test Loss:  1.2625 | Test Accuracy:  53.52%
+--------------------
+Epoch 2 | Train Loss: 1.3619 | Train Accuracy: 50.28%
+Epoch 2 | Test Loss:  1.0181 | Test Accuracy:  63.32%
+--------------------
+Epoch 3 | Train Loss: 1.1717 | Train Accuracy: 57.84%
+Epoch 3 | Test Loss:  0.9112 | Test Accuracy:  67.36%
+--------------------
+Epoch 4 | Train Loss: 1.0581 | Train Accuracy: 62.11%
+Epoch 4 | Test Loss:  0.8091 | Test Accuracy:  70.85%
+--------------------
+Finished Training. Best Test Accuracy: 70.85%
+Evaluated model with test_accuracy=70.8500, time=7.71 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 1.462 Million
+Epoch 1 | Train Loss: 0.8087 | Train Accuracy: 71.55%
+Epoch 1 | Test Loss:  0.6098 | Test Accuracy:  79.01%
+--------------------
+Epoch 2 | Train Loss: 0.7380 | Train Accuracy: 74.20%
+Epoch 2 | Test Loss:  0.5695 | Test Accuracy:  80.26%
+--------------------
+Epoch 3 | Train Loss: 0.6805 | Train Accuracy: 76.36%
+Epoch 3 | Test Loss:  0.5468 | Test Accuracy:  80.93%
+--------------------
+Epoch 4 | Train Loss: 0.6364 | Train Accuracy: 77.76%
+Epoch 4 | Test Loss:  0.5369 | Test Accuracy:  81.51%
+--------------------
+Finished Training. Best Test Accuracy: 81.51%
+Evaluated model with test_accuracy=81.5100, time=8.18 minutes
+Model parameters: 1.233 Million
+Epoch 1 | Train Loss: 0.8375 | Train Accuracy: 70.63%
+Epoch 1 | Test Loss:  0.6369 | Test Accuracy:  77.55%
+--------------------
+Epoch 2 | Train Loss: 0.7718 | Train Accuracy: 73.01%
+Epoch 2 | Test Loss:  0.5846 | Test Accuracy:  79.19%
+--------------------
+Epoch 3 | Train Loss: 0.7210 | Train Accuracy: 74.59%
+Epoch 3 | Test Loss:  0.5665 | Test Accuracy:  80.29%
+--------------------
+Epoch 4 | Train Loss: 0.6787 | Train Accuracy: 76.23%
+Epoch 4 | Test Loss:  0.5435 | Test Accuracy:  80.92%
+--------------------
+Finished Training. Best Test Accuracy: 80.92%
+Evaluated model with test_accuracy=80.9200, time=7.84 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 1.462 Million
+Epoch 1 | Train Loss: 0.6040 | Train Accuracy: 78.96%
+Epoch 1 | Test Loss:  0.5112 | Test Accuracy:  82.68%
+--------------------
+Epoch 2 | Train Loss: 0.5661 | Train Accuracy: 80.29%
+Epoch 2 | Test Loss:  0.4799 | Test Accuracy:  83.69%
+--------------------
+Epoch 3 | Train Loss: 0.5367 | Train Accuracy: 81.36%
+Epoch 3 | Test Loss:  0.4651 | Test Accuracy:  83.89%
+--------------------
+Epoch 4 | Train Loss: 0.5144 | Train Accuracy: 81.92%
+Epoch 4 | Test Loss:  0.4614 | Test Accuracy:  84.65%
+--------------------
+Epoch 5 | Train Loss: 0.4887 | Train Accuracy: 82.95%
+Epoch 5 | Test Loss:  0.4561 | Test Accuracy:  84.70%
+--------------------
+Epoch 6 | Train Loss: 0.4701 | Train Accuracy: 83.73%
+Epoch 6 | Test Loss:  0.4540 | Test Accuracy:  84.82%
+--------------------
+Epoch 7 | Train Loss: 0.4438 | Train Accuracy: 84.49%
+Epoch 7 | Test Loss:  0.4366 | Test Accuracy:  85.36%
+--------------------
+Epoch 8 | Train Loss: 0.4250 | Train Accuracy: 85.27%
+Epoch 8 | Test Loss:  0.4440 | Test Accuracy:  85.03%
+--------------------
+Epoch 9 | Train Loss: 0.4158 | Train Accuracy: 85.71%
+Epoch 9 | Test Loss:  0.4321 | Test Accuracy:  86.22%
+--------------------
+Epoch 10 | Train Loss: 0.3958 | Train Accuracy: 86.16%
+Epoch 10 | Test Loss:  0.4425 | Test Accuracy:  86.08%
+--------------------
+Epoch 11 | Train Loss: 0.3826 | Train Accuracy: 86.62%
+Epoch 11 | Test Loss:  0.4376 | Test Accuracy:  85.82%
+--------------------
+Epoch 12 | Train Loss: 0.3670 | Train Accuracy: 87.34%
+Epoch 12 | Test Loss:  0.4288 | Test Accuracy:  86.43%
+--------------------
+Finished Training. Best Test Accuracy: 86.43%
+Evaluated model with test_accuracy=86.4300, time=24.61 minutes
+New best model found! Accuracy: 86.4300
+Iteration 9 complete. Best so far: 86.4300
+
+=== Iteration 10/10 ===
+
+→ Stage 1: Training 4 candidates for 4 epochs
+Model parameters: 1.399 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 896]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 1.256 Million
+Candidate skipped during Stage 1 due to error: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 896]], which is output 0 of ReluBackward0, is at version 2; expected version 1 instead. Hint: the backtrace further above shows the operation that failed to compute its gradient. The variable in question was changed in there or anywhere later. Good luck!
+Model parameters: 0.938 Million
+Epoch 1 | Train Loss: 1.6940 | Train Accuracy: 36.62%
+Epoch 1 | Test Loss:  1.1667 | Test Accuracy:  57.38%
+--------------------
+Epoch 2 | Train Loss: 1.2562 | Train Accuracy: 54.38%
+Epoch 2 | Test Loss:  0.9275 | Test Accuracy:  66.60%
+--------------------
+Epoch 3 | Train Loss: 1.0653 | Train Accuracy: 61.53%
+Epoch 3 | Test Loss:  0.7882 | Test Accuracy:  71.71%
+--------------------
+Epoch 4 | Train Loss: 0.9399 | Train Accuracy: 66.46%
+Epoch 4 | Test Loss:  0.6973 | Test Accuracy:  75.56%
+--------------------
+Finished Training. Best Test Accuracy: 75.56%
+Evaluated model with test_accuracy=75.5600, time=8.09 minutes
+Model parameters: 1.535 Million
+Epoch 1 | Train Loss: 1.7180 | Train Accuracy: 36.13%
+Epoch 1 | Test Loss:  1.2022 | Test Accuracy:  55.76%
+--------------------
+Epoch 2 | Train Loss: 1.2804 | Train Accuracy: 53.46%
+Epoch 2 | Test Loss:  0.9627 | Test Accuracy:  65.05%
+--------------------
+Epoch 3 | Train Loss: 1.0955 | Train Accuracy: 60.41%
+Epoch 3 | Test Loss:  0.8369 | Test Accuracy:  70.07%
+--------------------
+Epoch 4 | Train Loss: 0.9718 | Train Accuracy: 65.23%
+Epoch 4 | Test Loss:  0.7479 | Test Accuracy:  73.93%
+--------------------
+Finished Training. Best Test Accuracy: 73.93%
+Evaluated model with test_accuracy=73.9300, time=7.75 minutes
+Model parameters: 0.840 Million
+Epoch 1 | Train Loss: 1.7025 | Train Accuracy: 36.27%
+Epoch 1 | Test Loss:  1.1621 | Test Accuracy:  57.05%
+--------------------
+Epoch 2 | Train Loss: 1.2583 | Train Accuracy: 54.32%
+Epoch 2 | Test Loss:  0.9263 | Test Accuracy:  66.18%
+--------------------
+Epoch 3 | Train Loss: 1.0670 | Train Accuracy: 61.60%
+Epoch 3 | Test Loss:  0.7896 | Test Accuracy:  71.71%
+--------------------
+Epoch 4 | Train Loss: 0.9441 | Train Accuracy: 66.50%
+Epoch 4 | Test Loss:  0.6942 | Test Accuracy:  75.14%
+--------------------
+Finished Training. Best Test Accuracy: 75.14%
+Evaluated model with test_accuracy=75.1400, time=7.85 minutes
+Model parameters: 0.795 Million
+Epoch 1 | Train Loss: 1.9145 | Train Accuracy: 27.05%
+Epoch 1 | Test Loss:  1.3585 | Test Accuracy:  49.38%
+--------------------
+Epoch 2 | Train Loss: 1.4245 | Train Accuracy: 48.10%
+Epoch 2 | Test Loss:  1.0817 | Test Accuracy:  60.50%
+--------------------
+Epoch 3 | Train Loss: 1.2424 | Train Accuracy: 54.84%
+Epoch 3 | Test Loss:  0.9600 | Test Accuracy:  65.13%
+--------------------
+Epoch 4 | Train Loss: 1.1206 | Train Accuracy: 59.75%
+Epoch 4 | Test Loss:  0.8736 | Test Accuracy:  68.60%
+--------------------
+Finished Training. Best Test Accuracy: 68.60%
+Evaluated model with test_accuracy=68.6000, time=7.67 minutes
+
+→ Stage 2: Training 2 candidates for 4 more epochs
+Model parameters: 0.938 Million
+Epoch 1 | Train Loss: 0.8525 | Train Accuracy: 69.89%
+Epoch 1 | Test Loss:  0.6358 | Test Accuracy:  77.82%
+--------------------
+Epoch 2 | Train Loss: 0.7838 | Train Accuracy: 72.38%
+Epoch 2 | Test Loss:  0.6002 | Test Accuracy:  79.09%
+--------------------
+Epoch 3 | Train Loss: 0.7321 | Train Accuracy: 74.37%
+Epoch 3 | Test Loss:  0.5669 | Test Accuracy:  80.23%
+--------------------
+Epoch 4 | Train Loss: 0.6854 | Train Accuracy: 76.12%
+Epoch 4 | Test Loss:  0.5300 | Test Accuracy:  81.37%
+--------------------
+Finished Training. Best Test Accuracy: 81.37%
+Evaluated model with test_accuracy=81.3700, time=8.07 minutes
+Model parameters: 0.840 Million
+Epoch 1 | Train Loss: 0.8522 | Train Accuracy: 69.84%
+Epoch 1 | Test Loss:  0.6407 | Test Accuracy:  77.57%
+--------------------
+Epoch 2 | Train Loss: 0.7793 | Train Accuracy: 72.45%
+Epoch 2 | Test Loss:  0.5958 | Test Accuracy:  78.88%
+--------------------
+Epoch 3 | Train Loss: 0.7251 | Train Accuracy: 74.50%
+Epoch 3 | Test Loss:  0.5794 | Test Accuracy:  79.95%
+--------------------
+Epoch 4 | Train Loss: 0.6778 | Train Accuracy: 76.20%
+Epoch 4 | Test Loss:  0.5337 | Test Accuracy:  81.50%
+--------------------
+Finished Training. Best Test Accuracy: 81.50%
+Evaluated model with test_accuracy=81.5000, time=7.93 minutes
+
+→ Final Stage: Continuing best candidate for 12 more epochs
+Model parameters: 0.840 Million
+Epoch 1 | Train Loss: 0.6433 | Train Accuracy: 77.53%
+Epoch 1 | Test Loss:  0.5129 | Test Accuracy:  82.65%
+--------------------
+Epoch 2 | Train Loss: 0.6029 | Train Accuracy: 78.87%
+Epoch 2 | Test Loss:  0.4957 | Test Accuracy:  83.02%
+--------------------
+Epoch 3 | Train Loss: 0.5806 | Train Accuracy: 79.68%
+Epoch 3 | Test Loss:  0.4777 | Test Accuracy:  83.38%
+--------------------
+Epoch 4 | Train Loss: 0.5507 | Train Accuracy: 80.70%
+Epoch 4 | Test Loss:  0.4676 | Test Accuracy:  84.08%
+--------------------
+Epoch 5 | Train Loss: 0.5244 | Train Accuracy: 81.68%
+Epoch 5 | Test Loss:  0.4697 | Test Accuracy:  83.96%
+--------------------
+Epoch 6 | Train Loss: 0.5029 | Train Accuracy: 82.55%
+Epoch 6 | Test Loss:  0.4438 | Test Accuracy:  84.80%
+--------------------
+Epoch 7 | Train Loss: 0.4804 | Train Accuracy: 83.40%
+Epoch 7 | Test Loss:  0.4570 | Test Accuracy:  84.82%
+--------------------
+Epoch 8 | Train Loss: 0.4659 | Train Accuracy: 83.84%
+Epoch 8 | Test Loss:  0.4221 | Test Accuracy:  85.76%
+--------------------
+Epoch 9 | Train Loss: 0.4419 | Train Accuracy: 84.54%
+Epoch 9 | Test Loss:  0.4282 | Test Accuracy:  85.78%
+--------------------
+Epoch 10 | Train Loss: 0.4280 | Train Accuracy: 84.98%
+Epoch 10 | Test Loss:  0.4360 | Test Accuracy:  85.22%
+--------------------
+Epoch 11 | Train Loss: 0.4143 | Train Accuracy: 85.59%
+Epoch 11 | Test Loss:  0.4361 | Test Accuracy:  85.59%
+--------------------
+Epoch 12 | Train Loss: 0.3948 | Train Accuracy: 86.14%
+Epoch 12 | Test Loss:  0.4309 | Test Accuracy:  85.75%
+--------------------
+Finished Training. Best Test Accuracy: 85.78%
+Evaluated model with test_accuracy=85.7800, time=23.76 minutes
+Final model did not outperform current best.
+Iteration 10 complete. Best so far: 86.4300
+
+Optimization finished.
+========================================
+Best Hyperparameters Found:
+{'initial_conv_hp': {'channels': 16, 'kernel_size': 3, 'stride': 2, 'activation': 'Hardswish'}, 'inverted_residual_hps': [{'expanded_channels': 16, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 16, 'kernel_size': 3, 'stride': 2, 'activation': 'ReLU'}}, {'expanded_channels': 72, 'use_se': False, 'se_hp': None, 'conv_bn_activation_hp': {'channels': 24, 'kernel_size': 3, 'stride': 2, 'activation': 'ReLU'}}, {'expanded_channels': 88, 'use_se': False, 'se_hp': None, 'conv_bn_activation_hp': {'channels': 24, 'kernel_size': 3, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 96, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 40, 'kernel_size': 5, 'stride': 2, 'activation': 'Hardswish'}}, {'expanded_channels': 240, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 40, 'kernel_size': 5, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 240, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 40, 'kernel_size': 5, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 120, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 40, 'kernel_size': 7, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 160, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 64, 'kernel_size': 3, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 288, 'use_se': True, 'se_hp': {'squeeze_factor': 16, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 128, 'kernel_size': 3, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 576, 'use_se': True, 'se_hp': {'squeeze_factor': 4, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 96, 'kernel_size': 7, 'stride': 1, 'activation': 'Hardswish'}}, {'expanded_channels': 320, 'use_se': True, 'se_hp': {'squeeze_factor': 16, 'activation': 'Hardsigmoid'}, 'conv_bn_activation_hp': {'channels': 112, 'kernel_size': 5, 'stride': 1, 'activation': 'Hardswish'}}], 'last_conv_upsample': 6, 'last_conv_hp': {'channels': 672, 'kernel_size': 1, 'stride': 1, 'activation': 'Hardswish'}, 'classifier_hp': {'neurons': 1024, 'activation': 'Hardswish', 'dropout_rate': 0.2}}
+========================================
+History saved to src/optim/hill_climbing/records/it_10_n_4_ep_20_blr_0.8_pmr_0.5_pi_2_local_freeze_7.json
