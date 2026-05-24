@@ -41,11 +41,11 @@ Follow these [Guidelines](./docs/guides/conda.md)
 To reproduce the experiments:
 
 ```bash
-# Pretrained MobileNetV3 fine-tuning
+# Pretrained MobileNetV3 fine-tuning    
 python scripts/pretrained_training.py
 
 # Run Stochastic Best Improvement with Progressive Halving
-python src/optim/sa_optimization/main.py
+python src/optim/hill_climbing/main.py
 ```
 
 ## Results
