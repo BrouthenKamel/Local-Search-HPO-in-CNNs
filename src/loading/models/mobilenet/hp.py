@@ -4,12 +4,16 @@ class SqueezeExcitationHP:
     def __init__(self, squeeze_factor: int, activation: str):
         self.squeeze_factor = squeeze_factor
         self.activation = activation
-        
+
     def to_dict(self):
         return {
             "squeeze_factor": self.squeeze_factor,
             "activation": self.activation
         }
+
+    @classmethod
+    def from_dict(cls, d):
+        return cls(squeeze_factor=d["squeeze_factor"], activation=d["activation"])
         
 class ConvBNActivationHP:
     def __init__(self, kernel_size: int, stride: int, activation: str, channels: int = None):
@@ -25,7 +29,16 @@ class ConvBNActivationHP:
             "stride": self.stride,
             "activation": self.activation
         }
-        
+
+    @classmethod
+    def from_dict(cls, d):
+        return cls(
+            kernel_size=d["kernel_size"],
+            stride=d["stride"],
+            activation=d["activation"],
+            channels=d.get("channels")
+        )
+
 class InvertedResidualHP:
     def __init__(self, expand_channels: int, use_se: bool, se_hp: SqueezeExcitationHP, conv_bn_activation_hp: ConvBNActivationHP):
         self.expanded_channels = make_divisible(expand_channels, 8)
@@ -40,7 +53,17 @@ class InvertedResidualHP:
             "se_hp": self.se_hp.to_dict() if self.se_hp else None,
             "conv_bn_activation_hp": self.conv_bn_activation_hp.to_dict()
         }
-        
+
+    @classmethod
+    def from_dict(cls, d):
+        se = d.get("se_hp")
+        return cls(
+            expand_channels=d["expanded_channels"],
+            use_se=d["use_se"],
+            se_hp=SqueezeExcitationHP.from_dict(se) if se else None,
+            conv_bn_activation_hp=ConvBNActivationHP.from_dict(d["conv_bn_activation_hp"])
+        )
+
 class ClassifierHP:
     def __init__(self, neurons: int, activation: str, dropout_rate: float):
         self.neurons = neurons
@@ -53,6 +76,14 @@ class ClassifierHP:
             "activation": self.activation,
             "dropout_rate": self.dropout_rate
         }
+
+    @classmethod
+    def from_dict(cls, d):
+        return cls(
+            neurons=d["neurons"],
+            activation=d["activation"],
+            dropout_rate=d["dropout_rate"]
+        )
 
 class MobileNetHP:
     def __init__(self, initial_conv_hp: ConvBNActivationHP, inverted_residual_hps: list[InvertedResidualHP], last_conv_upsample: int, last_conv_hp: ConvBNActivationHP, classifier_hp: ClassifierHP):
@@ -70,6 +101,16 @@ class MobileNetHP:
             "last_conv_hp": self.last_conv_hp.to_dict(),
             "classifier_hp": self.classifier_hp.to_dict()
         }
+
+    @classmethod
+    def from_dict(cls, d):
+        return cls(
+            initial_conv_hp=ConvBNActivationHP.from_dict(d["initial_conv_hp"]),
+            inverted_residual_hps=[InvertedResidualHP.from_dict(ir) for ir in d["inverted_residual_hps"]],
+            last_conv_upsample=d["last_conv_upsample"],
+            last_conv_hp=ConvBNActivationHP.from_dict(d["last_conv_hp"]),
+            classifier_hp=ClassifierHP.from_dict(d["classifier_hp"])
+        )
 
     def get_flattened_representation(self):
         representation = {}

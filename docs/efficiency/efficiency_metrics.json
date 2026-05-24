@@ -1,0 +1,173 @@
+{
+  "env": {
+    "torch": "2.5.1",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cpu": "x86_64",
+    "input_shape": [
+      3,
+      224,
+      224
+    ]
+  },
+  "selected_batch": 128,
+  "batches_measured": [
+    128,
+    256
+  ],
+  "initial_baseline": {
+    "params_m": 1.5281,
+    "thop_params_m": 1.5281,
+    "macs_m": 113.29,
+    "flops_m": 226.58,
+    "model_size_mb": 5.876,
+    "batches": {
+      "128": {
+        "gpu_latency_ms": [
+          28.51,
+          0.67
+        ],
+        "gpu_throughput": 4490.1,
+        "cpu_latency_ms": [
+          509.62,
+          32.63
+        ],
+        "cpu_throughput": 251.2,
+        "peak_mem_mb": 333.1
+      },
+      "256": {
+        "gpu_latency_ms": [
+          59.89,
+          0.41
+        ],
+        "gpu_throughput": 4274.5,
+        "cpu_latency_ms": [
+          1104.23,
+          80.92
+        ],
+        "cpu_throughput": 231.8,
+        "peak_mem_mb": 652.1
+      }
+    }
+  },
+  "rows": {
+    "5": {
+      "acc": 83.0,
+      "params_pub": 0.716,
+      "estimated": false,
+      "params_m": 0.7159,
+      "thop_params_m": 0.7159,
+      "macs_m": 85.53,
+      "flops_m": 171.07,
+      "model_size_mb": 2.766,
+      "batches": {
+        "128": {
+          "gpu_latency_ms": [
+            24.04,
+            0.4
+          ],
+          "gpu_throughput": 5324.1,
+          "cpu_latency_ms": [
+            384.21,
+            26.97
+          ],
+          "cpu_throughput": 333.2,
+          "peak_mem_mb": 329.4
+        },
+        "256": {
+          "gpu_latency_ms": [
+            52.32,
+            0.38
+          ],
+          "gpu_throughput": 4892.6,
+          "cpu_latency_ms": [
+            905.4,
+            63.59
+          ],
+          "cpu_throughput": 282.7,
+          "peak_mem_mb": 648.9
+        }
+      },
+      "initial_acc": 82.53
+    },
+    "7": {
+      "acc": 85.78,
+      "params_pub": 0.84,
+      "estimated": true,
+      "proxy_params_m": 0.7743,
+      "proxy_source": "freeze_5.json @ iter 1",
+      "params_m": 0.7743,
+      "thop_params_m": 0.7743,
+      "macs_m": 95.18,
+      "flops_m": 190.37,
+      "model_size_mb": 2.993,
+      "batches": {
+        "128": {
+          "gpu_latency_ms": [
+            26.46,
+            0.73
+          ],
+          "gpu_throughput": 4838.3,
+          "cpu_latency_ms": [
+            478.49,
+            28.67
+          ],
+          "cpu_throughput": 267.5,
+          "peak_mem_mb": 329.7
+        },
+        "256": {
+          "gpu_latency_ms": [
+            57.32,
+            0.87
+          ],
+          "gpu_throughput": 4466.0,
+          "cpu_latency_ms": [
+            981.3,
+            87.44
+          ],
+          "cpu_throughput": 260.9,
+          "peak_mem_mb": 649.2
+        }
+      },
+      "initial_acc": 85.01
+    },
+    "9": {
+      "acc": 89.17,
+      "params_pub": 1.06,
+      "estimated": false,
+      "params_m": 1.0599,
+      "thop_params_m": 1.0599,
+      "macs_m": 106.88,
+      "flops_m": 213.75,
+      "model_size_mb": 4.084,
+      "batches": {
+        "128": {
+          "gpu_latency_ms": [
+            25.85,
+            0.32
+          ],
+          "gpu_throughput": 4950.9,
+          "cpu_latency_ms": [
+            410.83,
+            16.93
+          ],
+          "cpu_throughput": 311.6,
+          "peak_mem_mb": 330.8
+        },
+        "256": {
+          "gpu_latency_ms": [
+            54.81,
+            0.4
+          ],
+          "gpu_throughput": 4670.8,
+          "cpu_latency_ms": [
+            1032.16,
+            97.65
+          ],
+          "cpu_throughput": 248.0,
+          "peak_mem_mb": 650.3
+        }
+      },
+      "initial_acc": 88.69
+    }
+  }
+}

@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\caption{Efficiency of the optimized architectures (FLOPs and model size per 224$\times$224 image; latency, throughput and peak memory at batch size 128; GPU: NVIDIA GeForce RTX 4070 Laptop GPU). FLOPs ratio is relative to the reference.}
+\label{tab:hpo_efficiency}
+\begin{tabular*}{\hsize}{@{\extracolsep{\fill}}lccccccccc@{}}
+\toprule
+Config & Acc (\%) & FLOPs (M) & FLOPs Ratio & Size (MB) & Peak Mem (MB) & GPU Time (ms) & GPU Thr. (img/s) & CPU Time (ms) & CPU Thr. (img/s) \\
+\colrule
+Reference & -- & 226.6 & 1.00$\times$ & 5.88 & 333.1 & 28.5 & 4490 & 509.6 & 251 \\
+5 blocks & 83.00 & 171.1 & 0.76$\times$ & 2.77 & 329.4 & 24.0 & 5324 & 384.2 & 333 \\
+7 blocks$^{\dagger}$ & 85.78 & 190.4 & 0.84$\times$ & 2.99 & 329.7 & 26.5 & 4838 & 478.5 & 268 \\
+9 blocks & 89.17 & 213.8 & 0.94$\times$ & 4.08 & 330.8 & 25.9 & 4951 & 410.8 & 312 \\
+\botrule
+\end{tabular*}
+\vspace{2pt}
+{\footnotesize $^{\dagger}$ The 7-block model's exact genome was not persisted; its efficiency metrics are estimated from a recoverable architecture of comparable size (0.774 M params). Reported accuracy and parameter count are unchanged.\par}
+\end{table*}
